@@ -30,16 +30,11 @@ _Provide a bulleted list of the concrete deliverables and artifacts that, when c
  project._
 
 
-<<<<<<< HEAD
 
 1. Improved forensic face aging GAN
 2. Transferring facial features of family members to face aged photos
 3. Simulating the visual effects of homlessness, or other confounding factors on face aged photos.
 4. Face matching/recognition algorithm to narrow the lsit of possible matches to a candidate.
-=======
-1. Deliverable 1
-2. Deliverable 2
->>>>>>> 557c02dacc84c5fe547849eb91d91b059100601d
 
 
 ### C. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI. 
