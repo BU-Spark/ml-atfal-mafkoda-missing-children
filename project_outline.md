@@ -19,15 +19,15 @@ impact this project will have if successfully completed._
 
 ### A. Problem Statement: 
 
-_In as direct terms as possible, provide the “Data Science” problem statement version of the overview. Think of this as 
-translating the above into a more technical definition to execute on._
+*Atfal Mafkoda*, or "missing children" in Arabic, is an organization based in Cairo, Egypt working to reunite missing children, adults, and seniors with their families. There are <insert_statistics> children that went missing from <insert_years> to <insert_years>, and it can be incredibly difficult for volunteers to find these missing children after several years. Children grow up fast, and their facial structures can change drastically in the span of a few years depending on their status (homelessness, scars, hunger, etc.).
+
+To facilitate the search for missing people, our team is developing a face ageing software using state-of-the-art machine learning algorithms. Hopefully, with new images that reflect the current ages and conditions of missing people, our volunteers can help reunite the missing people with their families faster.
 
 
 ### B. Checklist for project completion
 
 _Provide a bulleted list of the concrete deliverables and artifacts that, when complete, define the completion of the
  project._
-
 
 
 1. Deliverable 1
@@ -46,6 +46,7 @@ _Data Science Projects should have an operationalized end point in mind from the
  produced by this project being used by the end user beyond a jupyter notebook or proof of concept. If possible, be specific and
  call out the relevant technologies_
 
+END RESULT - Demo on huggingface
 
 ## Resources
 
@@ -53,18 +54,15 @@ _Data Science Projects should have an operationalized end point in mind from the
 ### Data Sets
 
 
-*   
+*  To be provided by clients.
 
 
 ### References
 
 
 
-1. 
+1. [Atfal Mafkoda Website](https://atfalmafkoda.com/en/home)
 
+2. [Original Research Paper on GANs](https://arxiv.org/abs/1406.2661)
 
-## Weekly Meeting Updates
-
-_Keep track of ongoing meetings in a google doc and link it to this markdown_
-
-Example meeting notes [google doc](https://docs.google.com/document/d/1EQbzWQMvNOFHZhj7xVXqPxkXgTaWG6kHKtYo5y-USVo/edit?usp=sharing). You can create a copy of this document for your project and update the meeting document as the project progresses.
+3. [Paper on CycleGANs](https://arxiv.org/abs/1703.10593)
