@@ -30,8 +30,10 @@ _Provide a bulleted list of the concrete deliverables and artifacts that, when c
 
 
 
-1. Deliverable 1
-2. Deliverable 2
+1. Improved forensic face aging GAN
+2. Transferring facial features of family members to face aged photos
+3. Simulating the visual effects of homlessness, or other confounding factors on face aged photos.
+4. Face matching/recognition algorithm to narrow the lsit of possible matches to a candidate.
 
 
 ### C. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI. 
@@ -39,6 +41,7 @@ _Provide a bulleted list of the concrete deliverables and artifacts that, when c
 _To assist in outlining the steps needed to achieve our final goal, outline the AI-less process that we are trying to 
 automate with Machine Learning. Provide as much detail as possible._
 
+When dealing with missing children in the United States around 98% of cases are solved with the aid from local law enforcement agencies. You can ask investigators enter your child into the National Crime Information Center. Investigators then take recent photographs of the missing child, along with contact information of anyone that would have information on the childs whereabouts. From this law enforcement investigators take the information along with contacts and databases to cross-reference to find the child. 
 
 ### D. Outline a path to operationalization.
 
