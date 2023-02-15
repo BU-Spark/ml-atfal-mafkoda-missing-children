@@ -1,6 +1,6 @@
 # Project Document Template
 
-## _Authors,  20xx-Month-Day vx.x.x-dev_
+## Matthew Batacan, Ryan Nie, William Lee, Daniel Skahill  2022-02-14 v1.0.0-dev_
 
 
 ## Overview
