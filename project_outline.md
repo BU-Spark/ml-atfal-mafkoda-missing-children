@@ -48,8 +48,8 @@ Essentially, the AI portion of this project will enable volunteers to quickly ag
 _Data Science Projects should have an operationalized end point in mind from the onset. Briefly describe how you see the tool
  produced by this project being used by the end user beyond a jupyter notebook or proof of concept. If possible, be specific and
  call out the relevant technologies_
-
-END RESULT - Demo on huggingface
+ 
+By the end of the semester, we will present a demo of our models using Huggingface. This will essentially serve as the proof of concept, but it will not be the final product. The final face-aging product should be operational software (such as a web application) that allows users to upload a photo, age the photo according to specified input (desired age, living conditions, hair length, etc.) and then output a rendering of the generated image. The final face recognition product should allow users to upload a photo, and then receive a list of results (photos, names, and relevant information) back based on the likelihood that the person uploaded is the same in the images returned. 
 
 ## Resources
 
