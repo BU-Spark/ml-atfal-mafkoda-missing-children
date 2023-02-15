@@ -21,19 +21,18 @@ There are <insert_statistics> children that went missing from <insert_years> to 
 
 To facilitate the search for missing people, our team is developing a face ageing software using state-of-the-art machine learning algorithms. Hopefully, with new images that reflect the current ages and conditions of missing people, our volunteers can help reunite the missing people with their families faster.
 
+In addition, our team will develop a facial recognition system that can help orphanages, hospitals, and safe havens identify potential missing children when they are admitted. 
+
 
 ### B. Checklist for project completion
 
 _Provide a bulleted list of the concrete deliverables and artifacts that, when complete, define the completion of the
  project._
 
-
-
 1. Improved forensic face aging GAN
 2. Transferring facial features of family members to face aged photos
 3. Simulating the visual effects of homlessness, or other confounding factors on face aged photos.
 4. Face matching/recognition algorithm to narrow the lsit of possible matches to a candidate.
-
 
 ### C. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI. 
 
@@ -41,6 +40,8 @@ _To assist in outlining the steps needed to achieve our final goal, outline the 
 automate with Machine Learning. Provide as much detail as possible._
 
 When dealing with missing children in the United States around 98% of cases are solved with the aid from local law enforcement agencies. You can ask investigators enter your child into the National Crime Information Center. Investigators then take recent photographs of the missing child, along with contact information of anyone that would have information on the childs whereabouts. From this law enforcement investigators take the information along with contacts and databases to cross-reference to find the child. 
+
+Essentially, the AI portion of this project will enable volunteers to quickly age and style faces of missing children so that they can post them to the Atfal Mafkoda Facebook group in hopes that someone has seen the missing person who looks similar to the aged version. In terms of facial recogntion, this AI technology would allow anyone to quickly upload an image of someone who they think may be a victim of abduction to see if their face matches anyone in the database (this would be impossible to do manually). 
 
 ### D. Outline a path to operationalization.
 
@@ -52,23 +53,34 @@ END RESULT - Demo on huggingface
 
 ## Resources
 
+1. [Original Research Paper on GANs](https://arxiv.org/abs/1406.2661)
+
+2. [Paper on CycleGANs](https://arxiv.org/abs/1703.10593)
+
+3. [GAN Project Similar to Desired Output](https://github.com/AbuAbdULLAH-MuhammadAli/FaceAgingStyleGANs)
 
 ### Data Sets
 
+1. Data provided by Atfal Mafkoda
 
-*  To be provided by clients.
+2. [FGNET](https://www.v7labs.com/open-datasets/fg-net#:~:text=FGNet%20is%20a%20dataset%20for,gap%20up%20to%2045%20years)
 
+3. [MORPH](https://uncw.edu/oic/tech/morph.html)
+
+4. [CACD](https://www.v7labs.com/open-datasets/cacd)
+
+5. [AgeDB](https://www.kaggle.com/nitingandhi/agedb-database)
+
+6. ITWCC
+
+7. [LFITW](http://vis-www.cs.umass.edu/lfw/)
 
 ### References
 
-
-
 1. [Atfal Mafkoda Website](https://atfalmafkoda.com/en/home)
 
-2. [Original Research Paper on GANs](https://arxiv.org/abs/1406.2661)
 
-3. [Paper on CycleGANs](https://arxiv.org/abs/1703.10593)
-
+### Notes 
 
 4 tasks, 3 are GAN based/style transfer, 1 is race recognition
 - get data asap
