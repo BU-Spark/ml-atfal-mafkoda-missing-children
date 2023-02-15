@@ -1,4 +1,4 @@
-# Project Document Template
+# Atfal Mafkoda ("Missing Children") Project Description
 
 ## Matthew Batacan, Ryan Nie, William Lee, Daniel Skahill  2022-02-14 v1.0.0-dev_
 
