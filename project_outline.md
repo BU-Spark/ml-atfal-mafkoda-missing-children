@@ -30,9 +30,20 @@ _Provide a bulleted list of the concrete deliverables and artifacts that, when c
  project._
 
 1. Improved forensic face aging GAN
+* When: before midterm presentation
+* Definition: use GAN model to generate aged faces, achieve high similarity compared with recovered children's faces
 2. Transferring facial features of family members to face aged photos
+* When: 1 month after midterm presentation
+* Definitno: transfer relatives' facial features to missing children's images, increase similarity compared with relatives' images
 3. Simulating the visual effects of homlessness, or other confounding factors on face aged photos.
+* When: 2 months after midterm presentation
+* Defintion: Add visual reflect that would mimic the situation of homeless
 4. Face matching/recognition algorithm to narrow the lsit of possible matches to a candidate.
+* When: before midterm presentation
+* Definition: Without generating new faces, use matching/recognition algorithm to find a set of similar faces with high similarities
+5. Image Enhancement
+* When: before midterm presentation
+* Definition: increase the image resolution, obtaining larger matrice as inputs
 
 ### C. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI. 
 
