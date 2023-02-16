@@ -26,24 +26,25 @@ In addition, our team will develop a facial recognition system that can help orp
 
 ### B. Checklist for project completion
 
-_Provide a bulleted list of the concrete deliverables and artifacts that, when complete, define the completion of the
- project._
-
-1. Improved forensic face aging GAN
-* When: before midterm presentation
+1. Team Agreement
+2. Research Document
+3. Midterm Presentation
+4. Improved forensic face aging GAN
+* When: before final presentation
 * Definition: use GAN model to generate aged faces, achieve high similarity compared with recovered children's faces
-2. Transferring facial features of family members to face aged photos
+5. Transferring facial features of family members to face aged photos
 * When: 1 month after midterm presentation
 * Definitno: transfer relatives' facial features to missing children's images, increase similarity compared with relatives' images
-3. Simulating the visual effects of homlessness, or other confounding factors on face aged photos.
+6. Simulating the visual effects of homlessness, or other confounding factors on face aged photos.
 * When: 2 months after midterm presentation
 * Defintion: Add visual reflect that would mimic the situation of homeless
-4. Face matching/recognition algorithm to narrow the lsit of possible matches to a candidate.
+7. Face matching/recognition algorithm to narrow the lsit of possible matches to a candidate.
 * When: before midterm presentation
 * Definition: Without generating new faces, use matching/recognition algorithm to find a set of similar faces with high similarities
-5. Image Enhancement
-* When: before midterm presentation
+8. Image Enhancement
+* When: before final presentation
 * Definition: increase the image resolution, obtaining larger matrice as inputs
+9. Final Presentation/Demo
 
 ### C. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI. 
 
