@@ -17,7 +17,7 @@ Even if the software developed leads to just one more missing person reunited wi
 
 ### A. Problem Statement: 
 
-There are <insert_statistics> children that went missing from <insert_years> to <insert_years>, and it can be incredibly difficult for volunteers to find these missing children after several years. Children grow up fast, and their facial structures can change drastically in the span of a few years depending on their status (homelessness, scars, hunger, etc.).
+Children grow up fast, and their facial structures can change drastically in the span of a few years depending on their status (homelessness, scars, hunger, etc.). Therefore, after a child has been missing for several years, it is extremely difficult to locate them without an accurate representation of what they may look like today.
 
 To facilitate the search for missing people, our team is developing a face ageing software using state-of-the-art machine learning algorithms. Hopefully, with new images that reflect the current ages and conditions of missing people, our volunteers can help reunite the missing people with their families faster.
 
@@ -48,18 +48,11 @@ In addition, our team will develop a facial recognition system that can help orp
 
 ### C. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI. 
 
-_To assist in outlining the steps needed to achieve our final goal, outline the AI-less process that we are trying to 
-automate with Machine Learning. Provide as much detail as possible._
-
 When dealing with missing children in the United States around 98% of cases are solved with the aid from local law enforcement agencies. You can ask investigators enter your child into the National Crime Information Center. Investigators then take recent photographs of the missing child, along with contact information of anyone that would have information on the childs whereabouts. From this law enforcement investigators take the information along with contacts and databases to cross-reference to find the child. 
 
 Essentially, the AI portion of this project will enable volunteers to quickly age and style faces of missing children so that they can post them to the Atfal Mafkoda Facebook group in hopes that someone has seen the missing person who looks similar to the aged version. In terms of facial recogntion, this AI technology would allow anyone to quickly upload an image of someone who they think may be a victim of abduction to see if their face matches anyone in the database (this would be impossible to do manually). 
 
 ### D. Outline a path to operationalization.
-
-_Data Science Projects should have an operationalized end point in mind from the onset. Briefly describe how you see the tool
- produced by this project being used by the end user beyond a jupyter notebook or proof of concept. If possible, be specific and
- call out the relevant technologies_
  
 By the end of the semester, we will present a demo of our models using Huggingface. This will essentially serve as the proof of concept, but it will not be the final product. The final face-aging product should be operational software (such as a web application) that allows users to upload a photo, age the photo according to specified input (desired age, living conditions, hair length, etc.) and then output a rendering of the generated image. The final face recognition product should allow users to upload a photo, and then receive a list of results (photos, names, and relevant information) back based on the likelihood that the person uploaded is the same in the images returned. 
 
@@ -90,15 +83,3 @@ By the end of the semester, we will present a demo of our models using Huggingfa
 ### References
 
 1. [Atfal Mafkoda Website](https://atfalmafkoda.com/en/home)
-
-
-### Notes 
-
-4 tasks, 3 are GAN based/style transfer, 1 is race recognition
-- get data asap
-- recognition- embedding vector; distance measures from the embedding vectors
-- it's possible the recognizer could still have a good similarity
-- using existing gans to see which are most robust
-- relatives
-- style transfer 
-- difusion models?
