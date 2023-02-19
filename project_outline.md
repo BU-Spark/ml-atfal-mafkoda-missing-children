@@ -48,7 +48,7 @@ In addition, our team will develop a facial recognition system that can help orp
 
 ### C. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI. 
 
-When dealing with missing children in the United States around 98% of cases are solved with the aid from local law enforcement agencies. You can ask investigators enter your child into the National Crime Information Center. Investigators then take recent photographs of the missing child, along with contact information of anyone that would have information on the childs whereabouts. From this law enforcement investigators take the information along with contacts and databases to cross-reference to find the child. 
+When dealing with missing children in the United States around 98% of cases are solved with the aid from local law enforcement agencies. You can ask investigators to enter your child into the National Crime Information Center. Investigators then take recent photographs of the missing child, along with contact information of anyone that would have information on the childs whereabouts. From this, law enforcement investigators take the information and use contacts and databases to cross-reference sources to find the child. 
 
 Essentially, the AI portion of this project will enable volunteers to quickly age and style faces of missing children so that they can post them to the Atfal Mafkoda Facebook group in hopes that someone has seen the missing person who looks similar to the aged version. In terms of facial recogntion, this AI technology would allow anyone to quickly upload an image of someone who they think may be a victim of abduction to see if their face matches anyone in the database (this would be impossible to do manually). 
 
