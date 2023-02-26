@@ -33,3 +33,17 @@
         - The existing conditional generative adversarial networks (cGANs) typically use a single network to learn various aging effects between any two different age groups. 
         - This paper proposes a novel progressive face aging framework based on generative adversarial network (PFA-GAN), this network contains several sub-networks to mimic facial aging through time. Each sub-network only learns some specific features between two adjacent age groups.
         - This paper also introduces an age estimation loss to take into account the age distribution for an improved aging accuracy, and proposes to use the Pearson correlation coefficient as an evaluation metric measuring the aging smoothness for face aging methods. 
+4. CycleGANs
+    - Paper: https://arxiv.org/abs/1703.10593
+    Video resources: 
+    https://www.youtube.com/watch?v=-8hfnlxEPn4
+    https://www.youtube.com/watch?v=NyAosnNQv_U
+        - Learns mapping between input and output images using unpaired dataset
+        - Cycle consistency: 
+            - forward cycle-consistency loss x → G(x) → F(G(x)) ≈ x, and 
+            - backward cycle-consistency loss: y → F(y) → G(F(y)) ≈ y
+            - To summarize, our generator and discriminator will be able to generate some new images and be able to generate the old image back (forward). It will also be able to generate the old image from a novel image, and generate the novel image back (backward).
+            - Loss function is a combination of the two losses in L1
+        - We can perform style transfer using CycleGANs (i.e. simulating a rural environment with malnourished children, etc.)
+    - Sample GitHub: https://github.com/HasnainRaz/Fast-AgingGAN
+        - Face aging technology seems to work decently well, but the authors do not have examples of style transfer for simulating different environments.
