@@ -47,3 +47,10 @@
         - We can perform style transfer using CycleGANs (i.e. simulating a rural environment with malnourished children, etc.)
     - Sample GitHub: https://github.com/HasnainRaz/Fast-AgingGAN
         - Face aging technology seems to work decently well, but the authors do not have examples of style transfer for simulating different environments.
+
+5. Face Aging using Conditional GANs with Keras implementation
+- Keras Implementation with a Encoder network, generator network, discriminator network, and face recognition network.
+- Article on cGan implementation Keras
+    - https://iq.opengenus.org/face-aging-cgan-keras/
+- Github Repo
+    -https://github.com/OpenGenus/face_aging  
