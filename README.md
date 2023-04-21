@@ -1,6 +1,5 @@
-# TEMPLATE-base-repo
+# Documentation 
 
-# Add Users
-To add yourself to the repository, open a Pull Request modifying `COLLABORATORS`, entering your GitHub username in a newline.
-
-All Pull Requests must follow the Pull Request Template, with a title formatted like such `[Project Name]: <Descriptive Title>`
+### Steps to reproduce code
+1. pip install -r requirements.txt in a new virtual environment
+2. download github dependencies listed in POC notebook into the root folder
