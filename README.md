@@ -16,6 +16,8 @@
 
 - RRDB_ESRGAN_x4.pth (use to enhance image)
 
+*if running from the BU SCC, ensure that the modules python 3.8.10, cuda 11.3, and gcc 9.3.0 are loaded prior to running interactive sessions.
+
 
 
 
