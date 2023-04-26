@@ -35,16 +35,19 @@ to
 
 ### Citations 
 PSP
-`@InProceedings{richardson2021encoding,
+```
+@InProceedings{richardson2021encoding,
       author = {Richardson, Elad and Alaluf, Yuval and Patashnik, Or and Nitzan, Yotam and Azar, Yaniv and Shapiro, Stav and Cohen-Or, Daniel},
       title = {Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation},
       booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
       month = {June},
       year = {2021}
-}`
+}
+```
 
 FaceAgingGAN
-`@inproceedings{orel2020lifespan,
+```
+@inproceedings{orel2020lifespan,
   title={Lifespan Age Transformation Synthesis},
   author={Or-El, Roy
           and Sengupta, Soumyadip
@@ -53,7 +56,8 @@ FaceAgingGAN
           and Kemelmacher-Shlizerman, Ira},
   booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
   year={2020}
-}`
+}
+```
 
 
 
