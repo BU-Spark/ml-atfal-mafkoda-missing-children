@@ -22,24 +22,24 @@ We did not end up using the Adience dataset. If interested, it is publicly avail
 
 Various images and associated ages/genders:
 
-<img src="sample-images/ffhq.png" width=40% height=40%>
+<img src="sample-images/ffhq.png" width=20% height=20%>
 
 ### FairFace
 
 Sample images from FairFace:
 
-<img src="sample-images/ff.png" width=80% height=80%>
+<img src="sample-images/ff.png" width=50% height=50%>
 
 Sample images from FairFace, Middle Eastern focused:
 
-<img src="sample-images/ffME.png" width=80% height=80%>
+<img src="sample-images/ffME.png" width=50% height=50%>
 
 ### Atfal Mafkoda Images:
 
 Sample images of missing people from Atfal Mafkoda:
 
-<img src="sample-images/atfal1.jpeg" width=33% height=33%>
-<img src="sample-images/atfal2.jpeg" width=25% height=25%>
-<img src="sample-images/atfal3.jpeg" width=18% height=18%>
+<img src="sample-images/atfal1.jpeg" width=25% height=25%>
+<img src="sample-images/atfal2.jpeg" width=19% height=19%>
+<img src="sample-images/atfal3.jpeg" width=13.6% height=13.6%>
 
 Extra images can be found on [Atfal Mafkoda's website](https://atfalmafkoda.com/).
