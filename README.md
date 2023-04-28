@@ -45,6 +45,9 @@ PSP
 }
 ```
 
+2. When running the Facial Recognition notebook, a pickle file will be created with the embedding vectors of each image after running the FR once. This should take a little over an hour to do. If new images are added, you must delete the pickle file and rerun the FR notebook to create new embeddings, there is currently no way to append the pickle file with the new embeddings. 
+
+
 FaceAgingGAN
 ```
 @inproceedings{orel2020lifespan,
