@@ -16,7 +16,11 @@
 
 - RRDB_ESRGAN_x4.pth (use to enhance image)
 
+5. Download the "Atfal Mafkoda Missing People" database from https://drive.google.com/file/d/1252bZG0sUNZ_eJZlZKTobUmOLeV9G-nM/view?usp=share_link
+
 *if running from the BU SCC, ensure that the modules python 3.8.10, cuda 11.3, and gcc 9.3.0 are loaded prior to running interactive sessions.
+*please ensure you allocate at least one GPU before running any of the code.
+
 
 
 
