@@ -37,6 +37,8 @@ to
 
 `from keras.utils.layer_utils import get_source_inputs` in `keras_vggface/models.py`.
 
+2. When running the Facial Recognition notebook, a pickle file will be created with the embedding vectors of each image after running the FR once. This should take a little over an hour to do. If new images are added, you must delete the pickle file and rerun the FR notebook to create new embeddings, there is currently no way to append the pickle file with the new embeddings. 
+
 ### Citations 
 PSP
 ```
@@ -48,9 +50,6 @@ PSP
       year = {2021}
 }
 ```
-
-2. When running the Facial Recognition notebook, a pickle file will be created with the embedding vectors of each image after running the FR once. This should take a little over an hour to do. If new images are added, you must delete the pickle file and rerun the FR notebook to create new embeddings, there is currently no way to append the pickle file with the new embeddings. 
-
 
 FaceAgingGAN
 ```
