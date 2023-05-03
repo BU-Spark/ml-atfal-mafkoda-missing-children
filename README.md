@@ -22,11 +22,11 @@
 *please ensure you allocate at least one GPU before running any of the code.
 
 ### Roadmap of Repository Directories
-- DeploymentFinalNBs- contains the deployment notebooks for the face aging demo as well as the facial recognition demo
-- POC- contains the files for our proof of concept pipeline
-- data-EDA- contains notebooks for our exploratory data analysis
-- database- contains non-aged and non-frontalized photos for missing people; the version with aged and frontalized photos can be found in the link above
-- results- test image results from our POC pipeline runs; shows faces of missing people and the aged/frontalized outputs
+- [`DeploymentFinalNBs`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/Deployment:FinalNBs)- contains the deployment notebooks for the face aging demo as well as the facial recognition demo
+- [`POC`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/POC)- contains the files for our proof of concept pipeline
+- [`data-EDA`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/data-EDA)- contains notebooks for our exploratory data analysis
+- [`database`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/database)- contains non-aged and non-frontalized photos for missing people; the version with aged and frontalized photos can be found in the link above
+- [`results`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/results)- test image results from our POC pipeline runs; shows faces of missing people and the aged/frontalized outputs
 
 
 ### Known Issues:
