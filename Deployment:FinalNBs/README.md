@@ -11,6 +11,8 @@
 
 `face_aging_app.ipynb` is the Gradio interface for simply aging faces.
 
+`align.py` is simply a helper script for frontalization in the Gradio Demo.
+
 
 
 
