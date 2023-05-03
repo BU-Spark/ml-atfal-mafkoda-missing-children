@@ -1,0 +1,6 @@
+[submodule "pixel2style2pixel"]
+	path = pixel2style2pixel
+	url = https://github.com/eladrich/pixel2style2pixel.git
+[submodule "FaceAgingStyleGANs"]
+	path = FaceAgingStyleGANs
+	url = https://github.com/AbuAbdULLAH-MuhammadAli/FaceAgingStyleGANs.git
