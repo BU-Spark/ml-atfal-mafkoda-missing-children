@@ -1,5 +1,14 @@
 # Documentation 
 
+
+## Roadmap of Repository Directories
+- [`DeploymentFinalNBs`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/Deployment:FinalNBs) - contains the deployment notebooks for the face aging demo as well as the facial recognition demo
+- [`POC`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/POC) - contains the files for our proof of concept pipeline
+- [`data-EDA`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/data-EDA) - contains notebooks for our exploratory data analysis
+- [`database`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/database) - contains non-aged and non-frontalized photos for missing people; the version with aged and frontalized photos can be found in the link above
+- [`results`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/results) - test image results from our POC pipeline runs; shows faces of missing people and the aged/frontalized outputs
+
+
 ## Steps to reproduce code
 1. `git clone https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children.git`
 2. Create and/or activate a new virtual environment with `python3.8.10`, then use `pip install -r requirements.txt` to install the dependencies.
@@ -24,16 +33,10 @@
 - You can run the face aging gradio app in face_aging_app.ipynb
 - You can run the face recognition gradio app in DeepFace FR Beta Deployment.ipynb
 
+
 ## SCC Notes
 * If running from the BU SCC, ensure that the modules **python 3.8.10, cuda 11.3, and gcc 9.3.0** are loaded prior to running interactive sessions.
 * Please ensure you allocate at least one GPU before running any of the code (**3.5 K40m or P100 or V100** is ok, but certain GPUs (K40m) might not work. In that case wait until the other GPUs are free, then restart the SCC interactive session).
-
-### Roadmap of Repository Directories
-- [`DeploymentFinalNBs`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/Deployment:FinalNBs)- contains the deployment notebooks for the face aging demo as well as the facial recognition demo
-- [`POC`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/POC)- contains the files for our proof of concept pipeline
-- [`data-EDA`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/data-EDA)- contains notebooks for our exploratory data analysis
-- [`database`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/database)- contains non-aged and non-frontalized photos for missing people; the version with aged and frontalized photos can be found in the link above
-- [`results`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/results)- test image results from our POC pipeline runs; shows faces of missing people and the aged/frontalized outputs
 
 
 ## Known Issues
@@ -46,6 +49,7 @@ to
 `from keras.utils.layer_utils import get_source_inputs` in `keras_vggface/models.py`.
 
 2. When running the Facial Recognition notebook, a pickle file will be created with the embedding vectors of each image after running the FR once. This should take a little over an hour to do. If new images are added, you must delete the pickle file and rerun the FR notebook to create new embeddings, there is currently no way to append the pickle file with the new embeddings. 
+
 
 ## Citations 
 PSP
