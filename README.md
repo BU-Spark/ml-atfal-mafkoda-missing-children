@@ -19,6 +19,11 @@
 
 6. Download the "Atfal Mafkoda Missing People" database [here](https://drive.google.com/file/d/1252bZG0sUNZ_eJZlZKTobUmOLeV9G-nM/view?usp=share_link).
 
+## Deployment
+- The deployment codes are inside Deployment:FinalNBs folder
+- You can run the face aging gradio app in face_aging_app.ipynb
+- You can run the face recognition gradio app in DeepFace FR Beta Deployment.ipynb
+
 ## SCC Notes
 * If running from the BU SCC, ensure that the modules **python 3.8.10, cuda 11.3, and gcc 9.3.0** are loaded prior to running interactive sessions.
 * Please ensure you allocate at least one GPU before running any of the code (**3.5 K40m or P100 or V100** is ok, but certain GPUs (K40m) might not work. In that case wait until the other GPUs are free, then restart the SCC interactive session).
