@@ -1,21 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ## Table of Contents
-# * [Dependencies](#Dependnecies)
-# * [Face Cropping](#faceCropping)
-#     * [Face Cropping Examples](#cropExamples)
-# * [Enhance Faces](#enhanceFaces)
-#     * [Enhance Examples](#enhanceExamples)
-# * [Align Faces](#alignFaces)
-#     * [Align Examples](#alignExamples)
-# * [Face Aging](#faceAging)
-#     * [Face Aging Examples](#faceAgeExamples)
-# * [Pipeline Run](#pipelineRun)
-#     * [Pipeline Run Examples](#pipelineExamples)
-
-# ## Dependencies <a class="anchor" id="Dependnecies"></a>
-
 # In order to run the code, you need to clone into your root director:
 # - https://github.com/eladrich/pixel2style2pixel
 # - https://github.com/AbuAbdULLAH-MuhammadAli/FaceAgingStyleGANs
@@ -28,6 +10,8 @@
 # - RRDB_ESRGAN_x4.pth  (use to enhance image)
 
 import os
+# change to directory to pixel2style2pixel
+# insert where you have this directory located
 os.chdir('../pixel2style2pixel')
 
 from argparse import Namespace
@@ -48,9 +32,6 @@ sys.path.append("..")
 from utils.common import tensor2im, log_input_image
 from pixel2style2pixel.models.psp import pSp
 
-#%load_ext autoreload
-#%autoreload 2
-
 import cv2
 import matplotlib.pyplot as plt 
 import dlib
@@ -63,15 +44,12 @@ from tqdm import tqdm
 import matplotlib
 
 
-# 1. Crop Faces with Bounding Box <a class="anchor" id="faceCropping"></a>
+# 1. Crop Faces with Bounding Box 
 
-
-get_ipython().run_line_magic('matplotlib', 'inline')
 face_detector_path = cnn_model_path = '/projectnb/sparkgrp/ml-atfal-mafkoda-grp//dlib_model/mmod_human_face_detector.dat' #change for your path
 cnn_face_detector = dlib.cnn_face_detection_model_v1(face_detector_path)
 
 def detect_crop_face(img, display=False):
-#     image = cv2.imread(img)
     output_image = img.copy()
     imgRGB = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
     results = cnn_face_detector(imgRGB,upsample_num_times =2)
@@ -97,13 +75,10 @@ def detect_crop_face(img, display=False):
         if y1_adj < 0:
             y1_adj = 0
         
-        #cv2.rectangle(output_image, pt1=(x1_adj,y1_adj), pt2=(x2_adj,y2_adj), color=(0, 0, 255), thickness=2)  
         output_image = output_image[y1_adj:y2_adj,x1_adj:x2_adj]
     if display:
         plt.imshow(cv2.cvtColor(output_image,cv2.COLOR_BGR2RGB))
         plt.show()
-    #path = f'atfalmafkoda_unzip/test_crop/face_crop{img}'
-    #cv2.imwrite(path,output)
     return output_image
 
 # 2. Enhance Faces
@@ -118,10 +93,6 @@ def enhance_face(img):
     model.eval()
     model = model.to(device)
 
-#     for path in glob.glob(test_img_folder):
-#     base = osp.splitext(osp.basename(img_path))[0]
-    # read images
-#     img = cv2.imread(img_path, cv2.IMREAD_COLOR)
     output = None
     img = img * 1.0 / 255
     img = torch.from_numpy(np.transpose(img[:, :, [2, 1, 0]], (2, 0, 1))).float()
@@ -139,29 +110,6 @@ def enhance_face(img):
 
 # 3. Align Faces
 
-#if running for the first time, uncomment the following code and download the model
-
-# CODE_DIR = 'pixel2style2pixel'
-# def get_download_model_command(file_id, file_name):
-#     """ Get wget download command for downloading the desired model and save to directory ../pretrained_models. """
-#     current_directory = os.getcwd()
-#     save_path = os.path.join(os.path.dirname(current_directory), CODE_DIR, "pretrained_models")
-#     if not os.path.exists(save_path):
-#         os.makedirs(save_path)
-#     url = r"""wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id={FILE_ID}' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id={FILE_ID}" -O {SAVE_PATH}/{FILE_NAME} && rm -rf /tmp/cookies.txt""".format(FILE_ID=file_id, FILE_NAME=file_name, SAVE_PATH=save_path)
-#     return url
-
-# MODEL_PATHS = {
-#     "ffhq_encode": {"id": "1bMTNWkh5LArlaWSc_wa8VKyq2V42T2z0", "name": "psp_ffhq_encode.pt"},
-#     "ffhq_frontalize": {"id": "1_S4THAzXb-97DbpXmanjHtXRyKxqjARv", "name": "psp_ffhq_frontalization.pt"},
-#     "celebs_super_resolution": {"id": "1ZpmSXBpJ9pFEov6-jjQstAlfYbkebECu", "name": "psp_celebs_super_resolution.pt"},
-# }
-
-# path = MODEL_PATHS[experiment_type]
-# download_command = get_download_model_command(file_id=path["id"], file_name=path["name"])
-# !{download_command}
-    
-
 experiment_type = 'ffhq_frontalize' 
 EXPERIMENT_DATA_ARGS = {
     "ffhq_frontalize": {
@@ -177,9 +125,6 @@ EXPERIMENT_DATA_ARGS = {
 EXPERIMENT_ARGS = EXPERIMENT_DATA_ARGS[experiment_type]
 
 
-# In[12]:
-
-
 model_path = EXPERIMENT_ARGS['model_path']
 ckpt = torch.load(model_path, map_location='cpu')
 
@@ -192,15 +137,11 @@ if 'learn_in_w' not in opts:
 if 'output_size' not in opts:
     opts['output_size'] = 1024
 
-
 opts = Namespace(**opts)
 net = pSp(opts)
 net.eval()
 net.cuda()
 print('Model successfully loaded!')
-
-
-# In[148]:
 
 
 #next two functions are helper functions defined by psp notebook
@@ -300,14 +241,17 @@ def age_face(img, opt, gender, d):
     
     os.makedirs('results', exist_ok=True)
     out_path = '/projectnb/sparkgrp/ml-atfal-mafkoda-grp/model_deployment/results/output' 
-    print(out_path)
+    #print(out_path)
     visualizer.save_images_deploy(visuals, out_path)
     #visualizer.save_row_image(visuals, out_path, traverse=True)
     out_dir = out_path.strip('output')
     return out_dir
 
+import gc
 
 def inference(img, gender='male', detect=True, enhance=True, align=True):
+
+    os.chdir('/projectnb/sparkgrp/ml-atfal-mafkoda-grp/')
     img_path = '/projectnb/sparkgrp/ml-atfal-mafkoda-grp/model_deployment/results/inference.jpeg'
     cv2.imwrite(img_path,img)
     
@@ -329,16 +273,30 @@ def inference(img, gender='male', detect=True, enhance=True, align=True):
             cv2.imwrite(os.path.join(tmpdirname, os.path.basename(img_path)),img)
         
         out = age_face(os.path.join(tmpdirname, os.path.basename(img_path)), opt, gender, tmpdirname)
-        print(os.getcwd())
-        print(os.listdir())
-        print(out,type(out))
-    out_list = os.listdir(out)
-    print(out_list)
+
     os.chdir('/projectnb/sparkgrp/ml-atfal-mafkoda-grp/model_deployment/results/')
-    out_list.remove('.ipynb_checkpoints')
+    
+    os.rename('output_tex_trans_to_class_0.png','output_tex_trans_to_class_00.png')
+    os.rename('output_tex_trans_to_class_1.png','output_tex_trans_to_class_01.png')
+    os.rename('output_tex_trans_to_class_2.png','output_tex_trans_to_class_02.png')
+    os.rename('output_tex_trans_to_class_3.png','output_tex_trans_to_class_03.png')
+    os.rename('output_tex_trans_to_class_4.png','output_tex_trans_to_class_04.png')
+    os.rename('output_tex_trans_to_class_5.png','output_tex_trans_to_class_05.png')
+    os.rename('output_tex_trans_to_class_6.png','output_tex_trans_to_class_06.png')
+    os.rename('output_tex_trans_to_class_7.png','output_tex_trans_to_class_07.png')
+    os.rename('output_tex_trans_to_class_8.png','output_tex_trans_to_class_08.png')
+    os.rename('output_tex_trans_to_class_9.png','output_tex_trans_to_class_09.png')
+    #os.rename('output_tex_trans_to_class_10.png')
+    
+    out_list = os.listdir()
     out_list.remove('flagged')
+    out_list.remove('gradio_cached_examples')
     out_list.remove('inference.jpeg')
-    return out_list
+    out_list.remove('output_orig_img.png')
+    out_list.remove('.ipynb_checkpoints')
+    print(sorted(out_list))    
+    return sorted(out_list)
+
 
 # Args for inference
 # - img: image path
