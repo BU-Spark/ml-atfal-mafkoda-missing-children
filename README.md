@@ -21,11 +21,12 @@
 *if running from the BU SCC, ensure that the modules python 3.8.10, cuda 11.3, and gcc 9.3.0 are loaded prior to running interactive sessions.
 *please ensure you allocate at least one GPU before running any of the code.
 
-
-
-
-
-
+### Roadmap of Repository Directories
+- DeploymentFinalNBs- contains the deployment notebooks for the face aging demo as well as the facial recognition demo
+- POC- contains the files for our proof of concept pipeline
+- data-EDA- contains notebooks for our exploratory data analysis
+- database- contains non-aged and non-frontalized photos for missing people; the version with aged and frontalized photos can be found in the link above
+- results- test image results from our POC pipeline runs; shows faces of missing people and the aged/frontalized outputs
 
 
 ### Known Issues:
