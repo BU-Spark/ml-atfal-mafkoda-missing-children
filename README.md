@@ -1,34 +1,36 @@
 # Documentation 
 
-### Steps to reproduce code
-1. `pip install -r requirements.txt` in a new virtual environment
-2. `git clone`:
+## Steps to reproduce code
+1. `git clone https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children.git`
+2. Create and/or activate a new virtual environment with `python3.8.10`, then use `pip install -r requirements.txt` to install the dependencies.
+3. `git clone`:
 
-- https://github.com/eladrich/pixel2style2pixel
-- https://github.com/AbuAbdULLAH-MuhammadAli/FaceAgingStyleGANs
+- [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel)
+- [FaceAgingStyleGANs](https://github.com/AbuAbdULLAH-MuhammadAli/FaceAgingStyleGANs)
 
-3. From https://github.com/davisking/dlib-models download the models (you may have to change the paths in the code):
+4. From [dlib-models](https://github.com/davisking/dlib-models) download the models (you may have to change the paths in the code):
 
-- mmod_human_face_detector.dat (use to detect face)
-- shape_predictor_68_face_landmarks.dat (use to detect face)
+- mmod_human_face_detector.dat (used to detect face)
+- shape_predictor_68_face_landmarks.dat (used to detect face)
 
-4. From https://drive.google.com/file/d/1pJ_T-V1dpb1ewoEra1TGSWl5e6H7M4NN/view download:
+5. From [this Google Drive](https://drive.google.com/file/d/1pJ_T-V1dpb1ewoEra1TGSWl5e6H7M4NN/view) download:
 
 - RRDB_ESRGAN_x4.pth (use to enhance image)
 
-5. Download the "Atfal Mafkoda Missing People" database from https://drive.google.com/file/d/1252bZG0sUNZ_eJZlZKTobUmOLeV9G-nM/view?usp=share_link
+6. Download the "Atfal Mafkoda Missing People" database [here](https://drive.google.com/file/d/1252bZG0sUNZ_eJZlZKTobUmOLeV9G-nM/view?usp=share_link).
 
-*if running from the BU SCC, ensure that the modules python 3.8.10, cuda 11.3, and gcc 9.3.0 are loaded prior to running interactive sessions.
-*please ensure you allocate at least one GPU before running any of the code.
-
-
-
+## SCC Notes
+* If running from the BU SCC, ensure that the modules **python 3.8.10, cuda 11.3, and gcc 9.3.0** are loaded prior to running interactive sessions.
+* Please ensure you allocate at least one GPU before running any of the code (**3.5 K40m or P100 or V100** is ok, but certain GPUs (K40m) might not work. In that case wait until the other GPUs are free, then restart the SCC interactive session).
 
 
 
 
 
-### Known Issues:
+
+
+
+## Known Issues
 1. There is a current issue after importing keras_vggface. You will need to make the change:
 
 `from keras.engine.topology import get_source_inputs`
@@ -39,7 +41,7 @@ to
 
 2. When running the Facial Recognition notebook, a pickle file will be created with the embedding vectors of each image after running the FR once. This should take a little over an hour to do. If new images are added, you must delete the pickle file and rerun the FR notebook to create new embeddings, there is currently no way to append the pickle file with the new embeddings. 
 
-### Citations 
+## Citations 
 PSP
 ```
 @InProceedings{richardson2021encoding,
