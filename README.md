@@ -19,9 +19,10 @@
 *if running from the BU SCC, ensure that the modules python 3.8.10, cuda 11.3, and gcc 9.3.0 are loaded prior to running interactive sessions.
 
 
-
-
-
+## Deployment
+- The deployment codes are inside Deployment:FinalNBs folder
+- You can run the face aging gradio app in face_aging_app.ipynb
+- You can run the face recognition gradio app in DeepFace FR Beta Deployment.ipynb
 
 
 ### Known Issues:
