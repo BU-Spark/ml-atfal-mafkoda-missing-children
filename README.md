@@ -11,7 +11,7 @@
 
 ## Steps to reproduce code
 1. `git clone https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children.git`
-2. Create and/or activate a new virtual environment with `python3.8.10`, then use `pip install -r requirements.txt` to install the dependencies.
+2. Create and/or activate a new virtual environment with `python3.8.10`, then use `pip install -r requirements.txt` to install the dependencies. After installing `requirements.txt`, you will need to `pip install dlib==19.24.1`. If this does not work, please refer to this [workaround](https://github.com/datamagic2020/Install-dlib).
 3. `git clone`:
 
 - [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel)
