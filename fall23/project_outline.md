@@ -1,9 +1,11 @@
 # Technical Project Document (v1.0.0-dev, 06 Oct - 2023)
 
 **Authors**: 
-Gitika Jha,  
-Sai Surya Varshith Nukala Mahaveer Bonagiri,  
-Navya Jain
+
+- Gitika Jha  
+- Sai Surya Varshith Nukala
+- Mahaveer Bonagiri 
+- Navya Jain
 
 ## Overview
 Atfal Mafkoda or "missing children" in Arabic, is an organization based in Cairo, Egypt working to reunite missing children, adults, and seniors with their families and loved ones. Initially starting as a Facebook page, it has grown to nearly two million followers and helped over 3,000 missing people. This initiative was also chosen by Facebook as the most influential initiative for the second time in 2020. They are now interested in applying age progression forensics to pictures of the missing children, since some of them have been missing for several years.
