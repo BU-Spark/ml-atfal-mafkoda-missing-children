@@ -37,10 +37,10 @@
 ## Data Requirements
 We request the following data:
 
-- Photos of currently missing children
-- Photos of recovered children and their original missing child photo
-- Photos of family members from both #1 and #2.
-- Gender and the age (or date of birth) of the person who went missing.
+- [x] Photos of currently missing children
+- [x] Photos of recovered children and their original missing child photo
+- [ ] Photos of family members from both #1 and #2 -- we are talking to the client to get this data
+- [ ] Gender and the age (or date of birth) of the person who went missing -- doesn't seem like the ground truth data is available for all data. Therefore, we are trying to get data from the facebook post texts. When that is not available, we will predict them using a gender and age detector from the picture of the face available. 
 
 ## Existing Datasets
 
