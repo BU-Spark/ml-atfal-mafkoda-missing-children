@@ -18,9 +18,7 @@ class FaceRecognition:
             print('Output file already exists. choose another path') 
             print('press y to overwrite')
             choice = input()
-            if choice == 'y':
-                os.remove(self.output_path)
-            else:
+            if choice.lower() != 'y':
                 sys.exit('Recognition aborted')
     
     def run_on_directories(self):
