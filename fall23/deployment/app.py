@@ -12,14 +12,13 @@ st.title("Prediction Visualizer")
 nav = st.sidebar.radio("Navigation", ['Visualize results'])
 
 # accept csv file as input
-# uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type="csv")
-# if uploaded_file is not None:
-#     data = pd.read_csv(uploaded_file)
-# else:
-#     st.sidebar.write("Please upload a CSV file.")
-#     st.stop()
-# df = data
-df = pd.read_csv("/Users/mahaveer/Desktop/spark/deployment/result_local.csv")
+uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type="csv")
+if uploaded_file is not None:
+    data = pd.read_csv(uploaded_file)
+else:
+    st.sidebar.write("Please upload a CSV file.")
+    st.stop()
+df = data
 
 def display_images_in_grid(image_paths, captions):
     if len(image_paths)==0:
@@ -50,26 +49,30 @@ if nav == 'Visualize results':
             if similarities[i] > res[matches[i]]:
                 res[matches[i]] = similarities[i]
         res = list(zip(res.keys(), res.values()))
-        res.sort(key=lambda x: x[1], reverse=True)
+        res.sort(key=lambda x: x[1])
         return filtered_df,res
 
     def display_results():
-        threshold = st.session_state.threshold / 100
+        start_th = st.session_state.threshold[0]
+        end_th = st.session_state.threshold[1]
         image_paths = []
         captions = []
         for image_path, th in results_filtered:
             th_val = float(th)
-            if th_val > threshold:
+            if start_th <= th_val <= end_th:
                 image_paths.append(image_path)
-                captions.append(str(format(th_val*100,"2f")))
-            else:
-                break
+                captions.append(str("{:.2f}".format(th_val)))
         display_images_in_grid(image_paths, captions)
-
+    
     user_input = st.text_input("Enter a string to match:")
-    threshold = st.slider("Select a threshold", key="threshold", min_value=0, max_value=100, value=50, step=1, on_change=display_results)
+    threshold = st.select_slider("Enter value range of metric", key="threshold", options=[x * 0.01 for x in range(0, 101)], value=(0.2, 0.8), on_change = display_results)
 
-    if st.checkbox("Show Table"):
+    st.divider()
+    st.write("Model : ",model_metric.split("_",1)[0])
+    st.write("Metric:   ",model_metric.split("_",1)[1])
+    st.divider()
+    
+    if st.checkbox("Show Uploaded CSV File"):
         st.table(data)
 
     if user_input:
@@ -77,13 +80,11 @@ if nav == 'Visualize results':
         if st.checkbox("Show Images that matches string comparision"):
             image_paths = []
             captions = []
-            # st.table(filtered_df[missing_persons])
             for image_path in list(filtered_df[missing_persons]):
                 image_paths.append(image_path)
                 captions.append(image_path.rsplit("/")[-1])
             display_images_in_grid(image_paths, captions)
 
-        
         if st.checkbox("Show Processed results"):
             st.write("Filtered Results: ", results_filtered)
     
