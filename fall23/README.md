@@ -1,7 +1,27 @@
-#  Fall 23 - Missing Children/Atfal Mafkoda
 
-Atfal Mafkoda or "missing children" in Arabic, is an organization based in Cairo, Egypt working to reunite missing children, adults, and seniors with their families and loved ones. Initially starting as a Facebook page, it has grown to nearly two million followers and helped over 3,000 missing people. This initiative was also chosen by Facebook as the most influential initiative for the second time in 2020. They are now interested in applying age progression forensics to pictures of the missing children, since some of them have been missing for several years. 
+# Flow Documentation
+This document provides an overview of the key components in our ML Pipeline. Please refer to each file for in depth explanation.
 
-Since children’s appearances change rapidly over the years, especially if they go through challenging circumstances like homelessness, it makes it incredibly tough to predict what they look like at present after an extended period of time. To aid in the search of these individuals, our team is planning to create an advanced ML-based facial aging software to expedite the process of predicting what they look like after they get older. This will help reunite them with their families through the help of volunteers sooner.
+## Key Components
 
-This repository will be up to date with our work and all deliverables. All relevant information will be updated in this readme file as and when we progress with the project.
+**JSON Data File**
+- Description : This is a JSON file that contains all relevant Facebook data. It serves as the primary dataset.
+
+**Data Downloader**
+- Function : Downloads all images associated with a specific `CaseId`.
+- Output : Images are stored in a structured directory named `case_status/case_id`.
+
+**Data Organizer**
+- Function : Aggregates enhanced images from each `CaseId`.
+- Organization Method : Images are sorted into folders based on their `case_status`.
+
+**Face Detector**
+- Function : Identifies any faces that are not detectable and Removes non-detectable faces from the processing queue.
+- Output : Non-detectable faces are listed in a CSV file.
+
+**Face Matcher**
+- Function : Compares each individual's face against a directory of 'John Does'.
+- Output : Generates a CSV file listing individuals who resemble 'John Does' along with their respective similarity scores.
+
+
+<img src="flow_chart.png" alt="Flow Chart" width="750"/>
