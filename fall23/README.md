@@ -25,3 +25,14 @@ This document provides an overview of the key components in our ML Pipeline. Ple
 
 
 <img src="flow_chart.png" alt="Flow Chart" width="750"/>
+
+## Euclidean l2 Vs Cosine
+
+| Criteria | Euclidean_l2 | Cosine |
+|---|---|---|
+| Total Case IDs Evaluated | 249 | 249 |
+| Case IDs with No Matches | 26 | 18 |
+| Case IDs with At Least One Match | 223 | 231 |
+| Avg Pool Size | Small (221) | Large (336) |
+| Probability of Finding Exact Match | Good | Slightly Higher |
+| Matches in Top 50 Pool | 85.7% (191/223) | 86.6% (200/231) |
