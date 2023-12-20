@@ -36,3 +36,16 @@ This document provides an overview of the key components in our ML Pipeline. Ple
 | Avg Pool Size | Small (221) | Large (336) |
 | Probability of Finding Exact Match | Good | Slightly Higher |
 | Matches in Top 50 Pool | 85.7% (191/223) | 86.6% (200/231) |
+
+
+# Install required packages:
+- Create a virtual environment and pip install the following modules
+```
+pip install requests  
+pip install Pillow  
+pip install tqdm 
+pip install pandas 
+pip install seaborn  
+pip install matplotlib  
+pip install deepface
+```
