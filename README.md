@@ -1,5 +1,7 @@
 # Documentation 
 
+This is the README for the Spring 2023 course project. For Fall 2023, 
+see this [README](./fall23/README.md).
 
 ## Roadmap of Repository Directories
 - [`DeploymentFinalNBs`](https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children/tree/dev/Deployment:FinalNBs) - contains the deployment notebooks for the face aging demo as well as the facial recognition demo

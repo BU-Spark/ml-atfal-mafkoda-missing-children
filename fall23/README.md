@@ -6,6 +6,7 @@ This document provides an overview of the key components in our ML Pipeline. Ple
 
 **JSON Data File**
 - Description : This is a JSON file that contains all relevant Facebook data. It serves as the primary dataset.
+  An example JSON file is in the `inputs_outputs` folder.
 
 **Data Downloader**
 - Function : Downloads all images associated with a specific `CaseId`.
@@ -34,7 +35,7 @@ This notebook automates the downloading and organizing of images based on JSON F
 - **Error Logging**: Missing data from the JSON file is logged into a CSV file for review.
 
 
-## data_explore.ipynb   
+## data_explore.ipynb  
 The `data_explore` directory includes the `data_explore.ipynb` notebook, which specializes in analyzing and visualizing the given Facebook posts data. Key components and outputs of the notebook are outlined below:
 
 ### Data Conversion and Preprocessing
