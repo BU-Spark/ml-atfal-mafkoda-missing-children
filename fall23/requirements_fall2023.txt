@@ -1,0 +1,7 @@
+requests  
+Pillow  
+tqdm 
+pandas 
+seaborn  
+matplotlib  
+deepface
