@@ -15,8 +15,13 @@ The aging software has been constructed using General Adversarial Networks along
 
 Even if the software developed leads to just one more missing person reunited with their loved ones, the project will be a success-- if it proves to be a valuable asset and leads to more than one missing person found, the technology can potentially be utilized in broader contexts across the world (i.e. the US government has expressed some interest). Regardless, everything developed will be open source so that individual contributors can help strengthen the project.
 
+### A. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI.
 
-### A. Problem Statement:
+By lookiong through enough pictures of people that have been homeless and before they were homeless, we'll be able to determine what someone would look like if they were to go homeless by looking at a photo of someone before they experienced homelessness.
+
+The AI portion of this project will pertain to generating photos that simulate the effects of homelessness.
+
+### B. Problem Statement:
 
 
 The effects of being missing can have various visual effects that make it harder to identify someone, even with a clean picture. This can be due to homelessness, scars, hunger, etc. By incorporating these aspects into our generated picture, it will give us a more accurate representation to identify a missing person.
@@ -30,7 +35,7 @@ In addition, our team will develop a facial recognition system that can help orp
 
 
 
-### B. Checklist for project completion
+### C. Checklist for project completion
 
 
 1. Team Agreement
@@ -51,17 +56,8 @@ In addition, our team will develop a facial recognition system that can help orp
 9. Final Presentation/Demo
 
 
-### C. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI.
-
-
-When dealing with missing children in the United States around 98% of cases are solved with the aid from local law enforcement agencies. You can ask investigators to enter your child into the National Crime Information Center. Investigators then take recent photographs of the missing child, along with contact information of anyone that would have information on the childs whereabouts. From this, law enforcement investigators take the information and use contacts and databases to cross-reference sources to find the child.
-
-
-Essentially, the AI portion of this project will enable volunteers to quickly age and style faces of missing children so that they can post them to the Atfal Mafkoda Facebook group in hopes that someone has seen the missing person who looks similar to the aged version. In terms of facial recogntion, this AI technology would allow anyone to quickly upload an image of someone who they think may be a victim of abduction to see if their face matches anyone in the database (this would be impossible to do manually).
-
-
 ### D. Outline a path to operationalization.
-By the end of the semester, we will present a demo of our models using Huggingface. This will essentially serve as the proof of concept, but it will not be the final product. The final face-aging product should be operational software (such as a web application) that allows users to upload a photo, age the photo according to specified input (desired age, living conditions, hair length, etc.) and then output a rendering of the generated image. The final face recognition product should allow users to upload a photo, and then receive a list of results (photos, names, and relevant information) back based on the likelihood that the person uploaded is the same in the images returned.
+By the end of the semester, we will present a demo of our models using Huggingface. This will essentially serve as the proof of concept, but it will not be the final product. The final face-aging product should be operational software (such as a web application) that allows users to upload a photo, age the photo according to specified input (desired age, living conditions, hair length, etc.) and then output a rendering of the generated image. The final face recognition product should allow users to upload a photo, and then receive a list of results (photos, names, and relevant information) back based on the likelihood that the person uploaded is the same in the images returned. On top of this, we should be able to now add a filter for adding the effects of homelessness.
 
 
 ## Resources
