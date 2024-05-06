@@ -1,0 +1,1285 @@
+missing_filename,unknowns_matched_filenames,distance,best_match,valid_found
+reunited_image_53.png,['john_doe_image_313.png'],"0    1.163867
+Name: distance, dtype: float64",john_doe_image_313.png,True
+john_doe_image_793.png,"['reunited_image_236.png', 'john_doe_image_442.png', 'reunited_image_140.png', 'reunited_image_714-checkpoint.png', 'reunited_image_714.png', 'reunited_image_526.png']","0    1.114673
+1    1.118306
+2    1.120385
+3    1.158243
+4    1.158243
+5    1.163219
+Name: distance, dtype: float64",reunited_image_236.png,True
+john_doe_image_675.png,"['reunited_image_526.png', 'john_doe_image_13.png', 'reunited_image_651.png', 'john_doe_image_442.png', 'reunited_image_140.png', 'reunited_image_75.png', 'reunited_image_634.png', 'reunited_image_375.png']","0    1.044388
+1    1.067309
+2    1.075737
+3    1.085148
+4    1.104876
+5    1.129616
+6    1.136569
+7    1.154484
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_615.png,"['reunited_image_163.png', 'reunited_image_236.png', 'reunited_image_75.png', 'reunited_image_374.png', 'reunited_image_161.png']","0    1.136005
+1    1.149308
+2    1.153547
+3    1.161540
+4    1.168874
+Name: distance, dtype: float64",reunited_image_163.png,True
+reunited_image_623.png,"['reunited_image_75.png', 'reunited_image_651.png', 'reunited_image_526.png', 'reunited_image_236.png']","0    1.033361
+1    1.137797
+2    1.140694
+3    1.151603
+Name: distance, dtype: float64",reunited_image_75.png,True
+reunited_image_604.png,['john_doe_image_273.png'],"0    1.168453
+Name: distance, dtype: float64",john_doe_image_273.png,True
+john_doe_image_743.png,['reunited_image_135.png'],"0    1.165626
+Name: distance, dtype: float64",reunited_image_135.png,True
+reunited_image_183.png,"['reunited_image_163.png', 'reunited_image_17.png']","0    1.128567
+1    1.144139
+Name: distance, dtype: float64",reunited_image_163.png,True
+reunited_image_247.png,"['reunited_image_374.png', 'reunited_image_227.png', 'reunited_image_163.png', 'reunited_image_634.png']","0    1.067742
+1    1.103466
+2    1.119165
+3    1.154090
+Name: distance, dtype: float64",reunited_image_374.png,True
+reunited_image_351.png,"['reunited_image_325-checkpoint.png', 'reunited_image_634.png']","0    1.152605
+1    1.168336
+Name: distance, dtype: float64",reunited_image_325-checkpoint.png,True
+john_doe_image_570.png,"['reunited_image_375.png', 'john_doe_image_274.png']","0    1.157126
+1    1.166222
+Name: distance, dtype: float64",reunited_image_375.png,True
+reunited_image_670.png,['reunited_image_455.png'],"0    1.103034
+Name: distance, dtype: float64",reunited_image_455.png,True
+john_doe_image_309.png,['reunited_image_150.png'],"0    1.163756
+Name: distance, dtype: float64",reunited_image_150.png,True
+john_doe_image_831.png,"['reunited_image_140.png', 'reunited_image_526.png', 'john_doe_image_442.png', 'reunited_image_651.png']","0    1.120745
+1    1.133160
+2    1.144232
+3    1.167709
+Name: distance, dtype: float64",reunited_image_140.png,True
+john_doe_image_191.png,"['reunited_image_701-checkpoint.png', 'reunited_image_701.png', 'reunited_image_25.png', 'reunited_image_135.png']","0    1.103578
+1    1.103578
+2    1.115113
+3    1.119636
+Name: distance, dtype: float64",reunited_image_701-checkpoint.png,True
+reunited_image_206.png,"['reunited_image_352.png', 'reunited_image_236.png']","0    1.118956
+1    1.142170
+Name: distance, dtype: float64",reunited_image_352.png,True
+john_doe_image_29.png,['reunited_image_161.png'],"0    1.161576
+Name: distance, dtype: float64",reunited_image_161.png,True
+reunited_image_240.png,"['john_doe_image_442.png', 'john_doe_image_13.png']","0    1.116880
+1    1.154431
+Name: distance, dtype: float64",john_doe_image_442.png,True
+john_doe_image_495.png,"['reunited_image_178.png', 'reunited_image_701-checkpoint.png', 'reunited_image_701.png', 'reunited_image_494.png']","0    1.125041
+1    1.166641
+2    1.166641
+3    1.168983
+Name: distance, dtype: float64",reunited_image_178.png,True
+reunited_image_328.png,['reunited_image_236.png'],"0    1.099472
+Name: distance, dtype: float64",reunited_image_236.png,True
+john_doe_image_298.png,"['john_doe_image_251.png', 'reunited_image_750-checkpoint.png', 'reunited_image_750.png']","0    1.092170
+1    1.145264
+2    1.145264
+Name: distance, dtype: float64",john_doe_image_251.png,True
+john_doe_image_705.png,['john_doe_image_471.png'],"0    1.115543
+Name: distance, dtype: float64",john_doe_image_471.png,True
+john_doe_image_65.png,"['reunited_image_651.png', 'reunited_image_526.png', 'reunited_image_140.png', 'john_doe_image_442.png', 'reunited_image_325-checkpoint.png', 'john_doe_image_251.png', 'john_doe_image_715-checkpoint.png', 'john_doe_image_715.png', 'reunited_image_75.png']","0    1.021353
+1    1.059622
+2    1.076809
+3    1.092604
+4    1.114133
+5    1.117190
+6    1.124342
+7    1.124342
+8    1.148859
+Name: distance, dtype: float64",reunited_image_651.png,True
+john_doe_image_281.png,['reunited_image_526.png'],"0    1.041384
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_399.png,['john_doe_image_313.png'],"0    1.167971
+Name: distance, dtype: float64",john_doe_image_313.png,True
+reunited_image_255.png,"['reunited_image_236.png', 'reunited_image_163.png', 'reunited_image_504-checkpoint.png', 'reunited_image_504.png']","0    1.095962
+1    1.129707
+2    1.160267
+3    1.160267
+Name: distance, dtype: float64",reunited_image_236.png,True
+john_doe_image_107.png,"['reunited_image_25.png', 'reunited_image_701-checkpoint.png', 'reunited_image_701.png', 'john_doe_image_442.png', 'reunited_image_494.png', 'reunited_image_420.png', 'john_doe_image_13.png', 'reunited_image_167.png']","0    1.071212
+1    1.113947
+2    1.113947
+3    1.116819
+4    1.125316
+5    1.143396
+6    1.146604
+7    1.147816
+Name: distance, dtype: float64",reunited_image_25.png,True
+reunited_image_103.png,['reunited_image_634.png'],"0    1.156026
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_393.png,['reunited_image_593.png'],"0    1.072543
+Name: distance, dtype: float64",reunited_image_593.png,True
+john_doe_image_69.png,"['reunited_image_526.png', 'reunited_image_325-checkpoint.png', 'john_doe_image_442.png', 'reunited_image_651.png']","0    1.095142
+1    1.110074
+2    1.110916
+3    1.120807
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_681.png,['reunited_image_374.png'],"0    1.161267
+Name: distance, dtype: float64",reunited_image_374.png,True
+john_doe_image_696.png,"['john_doe_image_13.png', 'reunited_image_140.png', 'john_doe_image_442.png']","0    1.084334
+1    1.152480
+2    1.164039
+Name: distance, dtype: float64",john_doe_image_13.png,True
+reunited_image_677.png,"['reunited_image_526.png', 'john_doe_image_13.png', 'john_doe_image_251.png', 'reunited_image_651.png']","0    1.068079
+1    1.118387
+2    1.128311
+3    1.137174
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_245.png,"['reunited_image_651.png', 'reunited_image_236.png', 'reunited_image_140.png', 'reunited_image_75.png', 'reunited_image_634.png', 'reunited_image_526.png', 'john_doe_image_442.png']","0    1.046925
+1    1.072032
+2    1.092760
+3    1.101017
+4    1.112556
+5    1.144777
+6    1.155701
+Name: distance, dtype: float64",reunited_image_651.png,True
+reunited_image_613.png,['reunited_image_87.png'],"0    1.156778
+Name: distance, dtype: float64",reunited_image_87.png,True
+reunited_image_587.png,['john_doe_image_358.png'],"0    1.148481
+Name: distance, dtype: float64",john_doe_image_358.png,True
+reunited_image_312.png,"['reunited_image_374.png', 'reunited_image_161.png', 'reunited_image_236.png', 'john_doe_image_273.png', 'reunited_image_227.png']","0    1.135922
+1    1.137009
+2    1.157179
+3    1.158444
+4    1.166816
+Name: distance, dtype: float64",reunited_image_374.png,True
+john_doe_image_168.png,"['reunited_image_75.png', 'reunited_image_634.png']","0    1.136268
+1    1.138785
+Name: distance, dtype: float64",reunited_image_75.png,True
+reunited_image_664.png,"['reunited_image_75.png', 'reunited_image_634.png', 'reunited_image_49.png']","0    1.158052
+1    1.159285
+2    1.163556
+Name: distance, dtype: float64",reunited_image_75.png,True
+reunited_image_1.png,"['john_doe_image_251.png', 'reunited_image_135.png']","0    1.081557
+1    1.133768
+Name: distance, dtype: float64",john_doe_image_251.png,True
+reunited_image_799.png,"['reunited_image_634.png', 'reunited_image_236.png', 'reunited_image_161.png']","0    1.099683
+1    1.131807
+2    1.169134
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_482.png,"['reunited_image_51.png', 'reunited_image_181.png']","0    1.079049
+1    1.160637
+Name: distance, dtype: float64",reunited_image_51.png,True
+reunited_image_460.png,"['reunited_image_458.png', 'reunited_image_236.png']","0    1.099304
+1    1.143314
+Name: distance, dtype: float64",reunited_image_458.png,True
+reunited_image_257.png,['reunited_image_305.png'],"0    1.149197
+Name: distance, dtype: float64",reunited_image_305.png,True
+john_doe_image_143.png,"['reunited_image_526.png', 'reunited_image_651.png']","0    1.022812
+1    1.091843
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_562.png,"['john_doe_image_251.png', 'reunited_image_526.png', 'john_doe_image_13.png']","0    1.063368
+1    1.123259
+2    1.140958
+Name: distance, dtype: float64",john_doe_image_251.png,True
+reunited_image_829.png,['reunited_image_236.png'],"0    1.163942
+Name: distance, dtype: float64",reunited_image_236.png,True
+john_doe_image_759.png,"['reunited_image_526.png', 'john_doe_image_251.png', 'john_doe_image_442.png', 'reunited_image_184.png', 'john_doe_image_13.png']","0    1.002299
+1    1.051481
+2    1.130362
+3    1.145323
+4    1.165164
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_507.png,['reunited_image_135.png'],"0    1.130059
+Name: distance, dtype: float64",reunited_image_135.png,True
+reunited_image_121.png,"['john_doe_image_467.png', 'reunited_image_714-checkpoint.png', 'reunited_image_714.png']","0    1.054349
+1    1.158052
+2    1.158052
+Name: distance, dtype: float64",john_doe_image_467.png,True
+john_doe_image_731.png,"['reunited_image_651.png', 'john_doe_image_611.png']","0    1.031072
+1    1.163118
+Name: distance, dtype: float64",reunited_image_651.png,True
+john_doe_image_781.png,"['john_doe_image_715-checkpoint.png', 'john_doe_image_715.png']","0    1.144437
+1    1.144437
+Name: distance, dtype: float64",john_doe_image_715-checkpoint.png,True
+john_doe_image_98.png,"['reunited_image_651.png', 'reunited_image_634.png', 'reunited_image_236.png', 'john_doe_image_611.png']","0    1.110242
+1    1.112509
+2    1.120617
+3    1.168113
+Name: distance, dtype: float64",reunited_image_651.png,True
+reunited_image_214.png,['reunited_image_184.png'],"0    1.160722
+Name: distance, dtype: float64",reunited_image_184.png,True
+reunited_image_208.png,['john_doe_image_251.png'],"0    1.146001
+Name: distance, dtype: float64",john_doe_image_251.png,True
+reunited_image_349.png,"['reunited_image_161.png', 'reunited_image_236.png']","0    1.111725
+1    1.133871
+Name: distance, dtype: float64",reunited_image_161.png,True
+reunited_image_202.png,"['reunited_image_494.png', 'john_doe_image_754-checkpoint.png', 'john_doe_image_754.png', 'reunited_image_152.png', 'reunited_image_305.png', 'reunited_image_701-checkpoint.png', 'reunited_image_701.png']","0    1.064780
+1    1.078520
+2    1.078520
+3    1.125627
+4    1.158764
+5    1.160894
+6    1.160894
+Name: distance, dtype: float64",reunited_image_494.png,True
+john_doe_image_122.png,['john_doe_image_358.png'],"0    1.037229
+Name: distance, dtype: float64",john_doe_image_358.png,True
+reunited_image_618.png,"['john_doe_image_358.png', 'reunited_image_701-checkpoint.png', 'reunited_image_701.png']","0    1.078269
+1    1.168796
+2    1.168796
+Name: distance, dtype: float64",john_doe_image_358.png,True
+john_doe_image_16.png,"['john_doe_image_611.png', 'reunited_image_634.png', 'reunited_image_526.png', 'reunited_image_651.png', 'john_doe_image_442.png']","0    1.085468
+1    1.103446
+2    1.129803
+3    1.145115
+4    1.154623
+Name: distance, dtype: float64",john_doe_image_611.png,True
+john_doe_image_101.png,['reunited_image_135.png'],"0    1.130849
+Name: distance, dtype: float64",reunited_image_135.png,True
+reunited_image_139.png,['reunited_image_227.png'],"0    1.130364
+Name: distance, dtype: float64",reunited_image_227.png,True
+john_doe_image_602.png,"['reunited_image_75.png', 'reunited_image_651.png', 'reunited_image_526.png', 'reunited_image_634.png', 'john_doe_image_442.png', 'reunited_image_140.png']","0    1.094447
+1    1.110004
+2    1.145390
+3    1.146199
+4    1.147087
+5    1.165706
+Name: distance, dtype: float64",reunited_image_75.png,True
+john_doe_image_502.png,['reunited_image_374.png'],"0    1.114605
+Name: distance, dtype: float64",reunited_image_374.png,True
+john_doe_image_758.png,"['reunited_image_167.png', 'reunited_image_352.png']","0    1.128498
+1    1.145448
+Name: distance, dtype: float64",reunited_image_167.png,True
+reunited_image_176.png,"['reunited_image_236.png', 'reunited_image_526.png', 'john_doe_image_442.png']","0    1.139582
+1    1.151887
+2    1.159012
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_779.png,"['john_doe_image_522.png', 'reunited_image_152.png', 'reunited_image_163.png', 'reunited_image_375.png', 'reunited_image_634.png', 'reunited_image_75.png']","0    1.052527
+1    1.083701
+2    1.093263
+3    1.153107
+4    1.165509
+5    1.168633
+Name: distance, dtype: float64",john_doe_image_522.png,True
+reunited_image_335.png,['john_doe_image_556.png'],"0    1.169187
+Name: distance, dtype: float64",john_doe_image_556.png,True
+john_doe_image_571.png,"['john_doe_image_13.png', 'john_doe_image_442.png', 'john_doe_image_70.png', 'john_doe_image_70-checkpoint.png', 'john_doe_image_333.png', 'john_doe_image_471.png']","0    1.097520
+1    1.139623
+2    1.140577
+3    1.140577
+4    1.145511
+5    1.162085
+Name: distance, dtype: float64",john_doe_image_13.png,True
+john_doe_image_189.png,['john_doe_image_358.png'],"0    1.117853
+Name: distance, dtype: float64",john_doe_image_358.png,True
+john_doe_image_748.png,['reunited_image_526.png'],"0    1.141164
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_324.png,"['reunited_image_651.png', 'reunited_image_236.png', 'reunited_image_140.png']","0    1.093086
+1    1.099716
+2    1.151042
+Name: distance, dtype: float64",reunited_image_651.png,True
+reunited_image_769.png,['reunited_image_184.png'],"0    1.163169
+Name: distance, dtype: float64",reunited_image_184.png,True
+reunited_image_792.png,['john_doe_image_611.png'],"0    1.168111
+Name: distance, dtype: float64",john_doe_image_611.png,True
+john_doe_image_599.png,"['reunited_image_634.png', 'reunited_image_236.png', 'reunited_image_504-checkpoint.png', 'reunited_image_504.png']","0    1.146310
+1    1.150901
+2    1.162647
+3    1.162647
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_356.png,['reunited_image_236.png'],"0    1.145516
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_542.png,['reunited_image_526.png'],"0    1.101317
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_13.png,"['john_doe_image_13.png', 'john_doe_image_442.png', 'john_doe_image_333.png', 'reunited_image_140.png', 'reunited_image_526.png', 'reunited_image_500.png', 'reunited_image_384.png', 'reunited_image_651.png', 'reunited_image_158.png', 'reunited_image_420.png', 'reunited_image_750.png', 'reunited_image_750-checkpoint.png']","0     7.536756e-07
+1     8.714530e-01
+2     8.917373e-01
+3     9.896751e-01
+4     1.032221e+00
+5     1.087186e+00
+6     1.137736e+00
+7     1.138484e+00
+8     1.145384e+00
+9     1.157329e+00
+10    1.165414e+00
+11    1.165414e+00
+Name: distance, dtype: float64",john_doe_image_442.png,True
+reunited_image_350.png,['reunited_image_236.png'],"0    1.127925
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_784.png,['reunited_image_161.png'],"0    1.151341
+Name: distance, dtype: float64",reunited_image_161.png,True
+john_doe_image_682.png,"['reunited_image_714-checkpoint.png', 'reunited_image_714.png', 'reunited_image_526.png', 'reunited_image_504-checkpoint.png', 'reunited_image_504.png']","0    1.108676
+1    1.108676
+2    1.132596
+3    1.133417
+4    1.133417
+Name: distance, dtype: float64",reunited_image_714-checkpoint.png,True
+reunited_image_370.png,['john_doe_image_556.png'],"0    1.099871
+Name: distance, dtype: float64",john_doe_image_556.png,True
+reunited_image_6.png,"['reunited_image_275.png', 'reunited_image_634.png', 'reunited_image_236.png']","0    1.121438
+1    1.123094
+2    1.141239
+Name: distance, dtype: float64",reunited_image_275.png,True
+john_doe_image_283.png,['reunited_image_236.png'],"0    1.153956
+Name: distance, dtype: float64",reunited_image_236.png,True
+john_doe_image_693.png,"['reunited_image_75.png', 'reunited_image_634.png', 'reunited_image_236.png']","0    1.127691
+1    1.146694
+2    1.153239
+Name: distance, dtype: float64",reunited_image_75.png,True
+reunited_image_229.png,"['reunited_image_504-checkpoint.png', 'reunited_image_504.png', 'reunited_image_526.png']","0    1.108951
+1    1.108951
+2    1.121890
+Name: distance, dtype: float64",reunited_image_504-checkpoint.png,True
+john_doe_image_398.png,"['john_doe_image_333.png', 'john_doe_image_442.png', 'reunited_image_526.png', 'john_doe_image_13.png']","0    1.117411
+1    1.121546
+2    1.151561
+3    1.164338
+Name: distance, dtype: float64",john_doe_image_333.png,True
+reunited_image_119.png,['reunited_image_550.png'],"0    1.159746
+Name: distance, dtype: float64",reunited_image_550.png,True
+reunited_image_348.png,"['reunited_image_325-checkpoint.png', 'reunited_image_526.png']","0    1.087885
+1    1.093392
+Name: distance, dtype: float64",reunited_image_325-checkpoint.png,True
+reunited_image_238.png,"['reunited_image_374.png', 'reunited_image_550.png']","0    1.122997
+1    1.152280
+Name: distance, dtype: float64",reunited_image_374.png,True
+john_doe_image_5.png,"['john_doe_image_13.png', 'reunited_image_325-checkpoint.png', 'john_doe_image_442.png', 'reunited_image_526.png', 'reunited_image_140.png', 'reunited_image_150.png', 'reunited_image_651.png']","0    1.101258
+1    1.134671
+2    1.136142
+3    1.143420
+4    1.158446
+5    1.159638
+6    1.163487
+Name: distance, dtype: float64",john_doe_image_13.png,True
+john_doe_image_626.png,"['reunited_image_526.png', 'john_doe_image_13.png', 'john_doe_image_442.png', 'reunited_image_325-checkpoint.png', 'reunited_image_140.png']","0    1.140908
+1    1.161565
+2    1.162279
+3    1.162844
+4    1.164831
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_450.png,"['john_doe_image_442.png', 'reunited_image_651.png', 'reunited_image_526.png', 'reunited_image_75.png']","0    1.131266
+1    1.147767
+2    1.161087
+3    1.169175
+Name: distance, dtype: float64",john_doe_image_442.png,True
+reunited_image_387.png,"['reunited_image_140.png', 'reunited_image_526.png', 'john_doe_image_442.png']","0    1.13038
+1    1.14288
+2    1.15148
+Name: distance, dtype: float64",reunited_image_140.png,True
+reunited_image_719.png,['reunited_image_634.png'],"0    1.166952
+Name: distance, dtype: float64",reunited_image_634.png,True
+john_doe_image_62.png,"['john_doe_image_13.png', 'john_doe_image_333.png', 'john_doe_image_442.png']","0    1.034471
+1    1.058381
+2    1.127538
+Name: distance, dtype: float64",john_doe_image_13.png,True
+reunited_image_357.png,"['john_doe_image_32.png', 'reunited_image_167.png', 'reunited_image_526.png']","0    1.103044
+1    1.148933
+2    1.155334
+Name: distance, dtype: float64",john_doe_image_32.png,True
+john_doe_image_727.png,"['john_doe_image_611.png', 'john_doe_image_442.png', 'john_doe_image_251.png']","0    1.070424
+1    1.144576
+2    1.169390
+Name: distance, dtype: float64",john_doe_image_611.png,True
+john_doe_image_269.png,"['john_doe_image_611.png', 'reunited_image_140.png', 'reunited_image_634.png', 'reunited_image_352.png', 'reunited_image_236.png', 'john_doe_image_442.png', 'reunited_image_161.png']","0    1.119089
+1    1.121433
+2    1.139344
+3    1.142796
+4    1.142902
+5    1.155943
+6    1.156631
+Name: distance, dtype: float64",john_doe_image_611.png,True
+reunited_image_772.png,"['reunited_image_325-checkpoint.png', 'reunited_image_526.png', 'reunited_image_651.png']","0    0.981234
+1    1.131204
+2    1.154437
+Name: distance, dtype: float64",reunited_image_325-checkpoint.png,True
+john_doe_image_125.png,"['reunited_image_140.png', 'john_doe_image_442.png', 'reunited_image_651.png']","0    1.135714
+1    1.150712
+2    1.163686
+Name: distance, dtype: float64",reunited_image_140.png,True
+john_doe_image_492.png,['reunited_image_365.png'],"0    1.164014
+Name: distance, dtype: float64",reunited_image_365.png,True
+reunited_image_178.png,['reunited_image_178.png'],"0    0.000001
+Name: distance, dtype: float64",reunited_image_178.png,False
+john_doe_image_273.png,"['john_doe_image_273.png', 'reunited_image_184.png']","0    0.000003
+1    1.142921
+Name: distance, dtype: float64",reunited_image_184.png,True
+reunited_image_798.png,['reunited_image_163.png'],"0    1.162937
+Name: distance, dtype: float64",reunited_image_163.png,True
+reunited_image_266.png,"['reunited_image_161.png', 'john_doe_image_611.png', 'john_doe_image_340.png', 'reunited_image_374.png']","0    1.121188
+1    1.161832
+2    1.162964
+3    1.163372
+Name: distance, dtype: float64",reunited_image_161.png,True
+reunited_image_362.png,"['reunited_image_135.png', 'reunited_image_494.png', 'reunited_image_25.png']","0    1.140309
+1    1.151301
+2    1.162282
+Name: distance, dtype: float64",reunited_image_135.png,True
+john_doe_image_517.png,"['reunited_image_526.png', 'john_doe_image_13.png', 'john_doe_image_442.png', 'john_doe_image_198.png', 'john_doe_image_198-checkpoint.png', 'reunited_image_651.png', 'reunited_image_420.png']","0    1.057010
+1    1.083719
+2    1.119413
+3    1.150837
+4    1.150837
+5    1.157303
+6    1.161036
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_741.png,['reunited_image_227.png'],"0    1.166605
+Name: distance, dtype: float64",reunited_image_227.png,True
+reunited_image_87.png,"['reunited_image_87.png', 'reunited_image_339.png']","0    0.000001
+1    1.167913
+Name: distance, dtype: float64",reunited_image_339.png,True
+reunited_image_593.png,['reunited_image_593.png'],"0    0.000002
+Name: distance, dtype: float64",reunited_image_593.png,False
+reunited_image_161.png,"['reunited_image_161.png', 'reunited_image_634.png', 'reunited_image_227.png', 'reunited_image_236.png']","0    0.000003
+1    1.016178
+2    1.151983
+3    1.163890
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_425.png,"['reunited_image_526.png', 'john_doe_image_358.png', 'reunited_image_325-checkpoint.png']","0    1.145055
+1    1.158997
+2    1.161929
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_471.png,"['john_doe_image_471.png', 'john_doe_image_442.png']","0    0.000001
+1    1.153197
+Name: distance, dtype: float64",john_doe_image_442.png,True
+john_doe_image_2.png,"['reunited_image_526.png', 'reunited_image_651.png']","0    1.110823
+1    1.128897
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_655.png,"['reunited_image_504-checkpoint.png', 'reunited_image_504.png', 'john_doe_image_556.png']","0    0.959626
+1    0.959626
+2    1.160069
+Name: distance, dtype: float64",reunited_image_504-checkpoint.png,True
+reunited_image_325.png,"['reunited_image_325-checkpoint.png', 'reunited_image_526.png']","0    0.000001
+1    1.158374
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_73.png,"['john_doe_image_13.png', 'john_doe_image_442.png', 'reunited_image_651.png', 'reunited_image_150.png', 'reunited_image_526.png']","0    1.058151
+1    1.095195
+2    1.108935
+3    1.121645
+4    1.169476
+Name: distance, dtype: float64",john_doe_image_13.png,True
+john_doe_image_340.png,"['john_doe_image_340.png', 'reunited_image_167.png', 'reunited_image_17.png']","0    0.000001
+1    1.024638
+2    1.151744
+Name: distance, dtype: float64",reunited_image_167.png,True
+reunited_image_175.png,"['reunited_image_161.png', 'reunited_image_236.png']","0    1.138704
+1    1.166042
+Name: distance, dtype: float64",reunited_image_161.png,True
+john_doe_image_498.png,['john_doe_image_611.png'],"0    1.162403
+Name: distance, dtype: float64",john_doe_image_611.png,True
+reunited_image_550.png,"['reunited_image_550.png', 'reunited_image_634.png', 'reunited_image_375.png', 'reunited_image_275.png', 'reunited_image_75.png']","0    0.000003
+1    1.104625
+2    1.121960
+3    1.163175
+4    1.163621
+Name: distance, dtype: float64",reunited_image_634.png,True
+john_doe_image_250.png,"['john_doe_image_250-checkpoint.png', 'john_doe_image_250.png']","0    0.000002
+1    0.000002
+Name: distance, dtype: float64",john_doe_image_250.png,True
+john_doe_image_555.png,"['john_doe_image_611.png', 'reunited_image_634.png', 'reunited_image_75.png']","0    1.089439
+1    1.117836
+2    1.159058
+Name: distance, dtype: float64",john_doe_image_611.png,True
+reunited_image_144.png,['reunited_image_374.png'],"0    1.162374
+Name: distance, dtype: float64",reunited_image_374.png,True
+reunited_image_159.png,"['reunited_image_135.png', 'john_doe_image_358.png']","0    1.153021
+1    1.153650
+Name: distance, dtype: float64",reunited_image_135.png,True
+john_doe_image_723.png,['john_doe_image_358.png'],"0    1.159769
+Name: distance, dtype: float64",john_doe_image_358.png,True
+john_doe_image_32.png,"['john_doe_image_32.png', 'reunited_image_305.png', 'john_doe_image_442.png', 'reunited_image_167.png']","0    0.000002
+1    1.146811
+2    1.158774
+3    1.168343
+Name: distance, dtype: float64",reunited_image_305.png,True
+reunited_image_683.png,"['john_doe_image_13.png', 'reunited_image_526.png', 'reunited_image_651.png', 'john_doe_image_442.png', 'reunited_image_325-checkpoint.png', 'reunited_image_140.png']","0    1.062092
+1    1.070243
+2    1.109725
+3    1.111029
+4    1.121244
+5    1.130698
+Name: distance, dtype: float64",john_doe_image_13.png,True
+john_doe_image_358.png,['john_doe_image_358.png'],"0    0.000002
+Name: distance, dtype: float64",john_doe_image_358.png,False
+reunited_image_193.png,"['reunited_image_161.png', 'reunited_image_634.png']","0    1.093911
+1    1.118398
+Name: distance, dtype: float64",reunited_image_161.png,True
+reunited_image_31.png,['reunited_image_161.png'],"0    1.12728
+Name: distance, dtype: float64",reunited_image_161.png,True
+reunited_image_560.png,"['reunited_image_714-checkpoint.png', 'reunited_image_714.png', 'john_doe_image_467.png', 'reunited_image_17.png', 'reunited_image_236.png', 'reunited_image_374.png']","0    1.092841
+1    1.092841
+2    1.139899
+3    1.153059
+4    1.154072
+5    1.156331
+Name: distance, dtype: float64",reunited_image_714-checkpoint.png,True
+john_doe_image_14.png,"['reunited_image_526.png', 'reunited_image_325-checkpoint.png', 'john_doe_image_13.png', 'reunited_image_651.png', 'reunited_image_140.png']","0    1.127252
+1    1.133261
+2    1.144302
+3    1.151758
+4    1.168550
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_442.png,"['john_doe_image_442.png', 'john_doe_image_13.png', 'reunited_image_140.png', 'john_doe_image_333.png', 'reunited_image_651.png', 'reunited_image_526.png', 'reunited_image_375.png', 'reunited_image_384.png', 'reunited_image_75.png', 'john_doe_image_70-checkpoint.png', 'john_doe_image_70.png', 'john_doe_image_471.png', 'reunited_image_158.png', 'john_doe_image_32.png', 'reunited_image_167.png']","0     0.000001
+1     0.871453
+2     0.945023
+3     0.996933
+4     1.069200
+5     1.086947
+6     1.126285
+7     1.139087
+8     1.145126
+9     1.151865
+10    1.151865
+11    1.153197
+12    1.153441
+13    1.158774
+14    1.165927
+Name: distance, dtype: float64",john_doe_image_13.png,True
+john_doe_image_499.png,['reunited_image_161.png'],"0    1.161359
+Name: distance, dtype: float64",reunited_image_161.png,True
+reunited_image_112.png,"['reunited_image_701-checkpoint.png', 'reunited_image_701.png', 'reunited_image_167.png', 'reunited_image_25.png']","0    1.031179
+1    1.031179
+2    1.128598
+3    1.162002
+Name: distance, dtype: float64",reunited_image_701-checkpoint.png,True
+john_doe_image_715.png,"['john_doe_image_715-checkpoint.png', 'john_doe_image_715.png']","0    0.000001
+1    0.000001
+Name: distance, dtype: float64",john_doe_image_715.png,True
+reunited_image_493.png,"['reunited_image_701-checkpoint.png', 'reunited_image_701.png', 'reunited_image_526.png', 'reunited_image_236.png']","0    1.126241
+1    1.126241
+2    1.133032
+3    1.140536
+Name: distance, dtype: float64",reunited_image_701-checkpoint.png,True
+john_doe_image_297.png,['john_doe_image_297.png'],"0    0.000001
+Name: distance, dtype: float64",john_doe_image_297.png,False
+reunited_image_114.png,"['reunited_image_634.png', 'reunited_image_236.png', 'reunited_image_161.png', 'john_doe_image_522.png', 'reunited_image_75.png', 'reunited_image_374.png']","0    0.946281
+1    1.001977
+2    1.074475
+3    1.100827
+4    1.117217
+5    1.169365
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_305.png,"['reunited_image_305.png', 'john_doe_image_32.png']","0    0.000001
+1    1.146811
+Name: distance, dtype: float64",john_doe_image_32.png,True
+john_doe_image_611.png,"['john_doe_image_611.png', 'reunited_image_651.png']","0    0.000001
+1    1.161034
+Name: distance, dtype: float64",reunited_image_651.png,True
+reunited_image_163.png,"['reunited_image_163.png', 'reunited_image_236.png', 'reunited_image_634.png', 'john_doe_image_522.png']","0    0.000002
+1    1.134572
+2    1.143599
+3    1.166246
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_177.png,"['reunited_image_163.png', 'reunited_image_236.png']","0    1.145294
+1    1.161202
+Name: distance, dtype: float64",reunited_image_163.png,True
+reunited_image_9.png,"['reunited_image_374.png', 'reunited_image_550.png', 'reunited_image_504.png', 'reunited_image_504-checkpoint.png', 'reunited_image_236.png']","0    1.093617
+1    1.122275
+2    1.157403
+3    1.157403
+4    1.167685
+Name: distance, dtype: float64",reunited_image_374.png,True
+john_doe_image_24.png,"['reunited_image_651.png', 'john_doe_image_13.png', 'john_doe_image_442.png', 'reunited_image_526.png']","0    1.121176
+1    1.140412
+2    1.145052
+3    1.152756
+Name: distance, dtype: float64",reunited_image_651.png,True
+john_doe_image_251.png,"['john_doe_image_251.png', 'reunited_image_750-checkpoint.png', 'reunited_image_750.png']","0    0.000002
+1    1.148033
+2    1.148033
+Name: distance, dtype: float64",reunited_image_750-checkpoint.png,True
+reunited_image_184.png,"['reunited_image_184.png', 'john_doe_image_273.png']","0    0.000003
+1    1.142921
+Name: distance, dtype: float64",john_doe_image_273.png,True
+reunited_image_451.png,"['reunited_image_634.png', 'reunited_image_526.png']","0    1.135692
+1    1.169215
+Name: distance, dtype: float64",reunited_image_634.png,True
+john_doe_image_533.png,"['reunited_image_236.png', 'reunited_image_714-checkpoint.png', 'reunited_image_714.png']","0    1.147993
+1    1.168068
+2    1.168068
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_673.png,"['john_doe_image_358.png', 'john_doe_image_611.png', 'reunited_image_634.png', 'john_doe_image_522.png']","0    1.123471
+1    1.146889
+2    1.165845
+3    1.168312
+Name: distance, dtype: float64",john_doe_image_358.png,True
+reunited_image_456.png,"['john_doe_image_471.png', 'reunited_image_236.png', 'john_doe_image_611.png']","0    1.135501
+1    1.145787
+2    1.156177
+Name: distance, dtype: float64",john_doe_image_471.png,True
+reunited_image_192.png,['reunited_image_227.png'],"0    1.134189
+Name: distance, dtype: float64",reunited_image_227.png,True
+reunited_image_40.png,"['reunited_image_167.png', 'reunited_image_701-checkpoint.png', 'reunited_image_701.png']","0    1.088863
+1    1.089192
+2    1.089192
+Name: distance, dtype: float64",reunited_image_167.png,True
+reunited_image_352.png,"['reunited_image_352.png', 'john_doe_image_522.png']","0    0.000001
+1    1.152217
+Name: distance, dtype: float64",john_doe_image_522.png,True
+reunited_image_624.png,['john_doe_image_358.png'],"0    1.108775
+Name: distance, dtype: float64",john_doe_image_358.png,True
+john_doe_image_369.png,"['reunited_image_526.png', 'reunited_image_651.png', 'john_doe_image_13.png']","0    1.098471
+1    1.126292
+2    1.152125
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_541.png,['reunited_image_150.png'],"0    1.16131
+Name: distance, dtype: float64",reunited_image_150.png,True
+reunited_image_140.png,"['reunited_image_140.png', 'john_doe_image_442.png', 'john_doe_image_13.png', 'reunited_image_158.png', 'reunited_image_375.png', 'john_doe_image_333.png', 'reunited_image_651.png', 'reunited_image_275.png']","0    0.000001
+1    0.945023
+2    0.989675
+3    1.041663
+4    1.052808
+5    1.103220
+6    1.134314
+7    1.160724
+Name: distance, dtype: float64",john_doe_image_442.png,True
+reunited_image_546.png,['reunited_image_550.png'],"0    1.168252
+Name: distance, dtype: float64",reunited_image_550.png,True
+reunited_image_293.png,"['reunited_image_161.png', 'reunited_image_634.png', 'reunited_image_163.png', 'reunited_image_236.png']","0    0.925322
+1    1.125168
+2    1.136189
+3    1.160035
+Name: distance, dtype: float64",reunited_image_161.png,True
+john_doe_image_734.png,['reunited_image_526.png'],"0    1.076842
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_105.png,"['reunited_image_325-checkpoint.png', 'reunited_image_651.png', 'reunited_image_161.png']","0    1.121180
+1    1.158361
+2    1.167350
+Name: distance, dtype: float64",reunited_image_325-checkpoint.png,True
+reunited_image_260.png,"['reunited_image_161.png', 'reunited_image_634.png']","0    1.132188
+1    1.146950
+Name: distance, dtype: float64",reunited_image_161.png,True
+john_doe_image_235.png,['reunited_image_236.png'],"0    1.152797
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_263.png,"['john_doe_image_611.png', 'reunited_image_140.png']","0    1.089039
+1    1.157282
+Name: distance, dtype: float64",john_doe_image_611.png,True
+reunited_image_724.png,"['reunited_image_167.png', 'reunited_image_352.png', 'john_doe_image_340.png', 'john_doe_image_358.png']","0    1.098299
+1    1.137148
+2    1.141205
+3    1.155773
+Name: distance, dtype: float64",reunited_image_167.png,True
+reunited_image_92.png,"['reunited_image_236.png', 'reunited_image_634.png']","0    1.011898
+1    1.123049
+Name: distance, dtype: float64",reunited_image_236.png,True
+john_doe_image_333.png,"['john_doe_image_333.png', 'john_doe_image_13.png', 'john_doe_image_442.png', 'reunited_image_375.png', 'reunited_image_140.png', 'john_doe_image_754-checkpoint.png', 'john_doe_image_754.png', 'reunited_image_420.png', 'reunited_image_701-checkpoint.png', 'reunited_image_701.png', 'john_doe_image_70.png', 'john_doe_image_70-checkpoint.png']","0     0.000001
+1     0.891737
+2     0.996933
+3     1.036537
+4     1.103219
+5     1.104116
+6     1.104116
+7     1.145585
+8     1.152390
+9     1.152390
+10    1.161554
+11    1.161554
+Name: distance, dtype: float64",john_doe_image_13.png,True
+john_doe_image_488.png,"['john_doe_image_442.png', 'reunited_image_375.png', 'reunited_image_651.png', 'reunited_image_140.png']","0    1.085160
+1    1.099845
+2    1.117937
+3    1.124144
+Name: distance, dtype: float64",john_doe_image_442.png,True
+john_doe_image_376.png,['john_doe_image_442.png'],"0    1.142634
+Name: distance, dtype: float64",john_doe_image_442.png,True
+reunited_image_8.png,"['john_doe_image_442.png', 'reunited_image_526.png']","0    1.138196
+1    1.168079
+Name: distance, dtype: float64",john_doe_image_442.png,True
+reunited_image_150.png,['reunited_image_150.png'],"0    0.000002
+Name: distance, dtype: float64",reunited_image_150.png,False
+reunited_image_791.png,"['reunited_image_236.png', 'reunited_image_75.png']","0    1.130070
+1    1.147568
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_454.png,"['reunited_image_236.png', 'reunited_image_163.png', 'reunited_image_714-checkpoint.png', 'reunited_image_714.png']","0    1.144590
+1    1.165589
+2    1.166503
+3    1.166503
+Name: distance, dtype: float64",reunited_image_236.png,True
+john_doe_image_28.png,"['reunited_image_526.png', 'john_doe_image_13.png', 'reunited_image_651.png', 'john_doe_image_442.png', 'john_doe_image_251.png', 'reunited_image_150.png']","0    1.030833
+1    1.097140
+2    1.111936
+3    1.124567
+4    1.153304
+5    1.165912
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_430.png,"['john_doe_image_522.png', 'reunited_image_167.png']","0    1.112718
+1    1.127542
+Name: distance, dtype: float64",john_doe_image_522.png,True
+john_doe_image_332.png,"['reunited_image_651.png', 'john_doe_image_442.png', 'reunited_image_236.png', 'reunited_image_526.png', 'reunited_image_140.png', 'reunited_image_75.png']","0    0.970300
+1    1.099692
+2    1.142662
+3    1.151180
+4    1.156101
+5    1.159297
+Name: distance, dtype: float64",reunited_image_651.png,True
+reunited_image_420.png,"['reunited_image_420.png', 'john_doe_image_333.png', 'john_doe_image_13.png', 'reunited_image_375.png']","0    0.000002
+1    1.145585
+2    1.157329
+3    1.162740
+Name: distance, dtype: float64",john_doe_image_333.png,True
+john_doe_image_421.png,"['reunited_image_651.png', 'reunited_image_135.png', 'reunited_image_325-checkpoint.png', 'john_doe_image_442.png', 'reunited_image_526.png', 'john_doe_image_251.png']","0    1.065810
+1    1.091573
+2    1.098817
+3    1.145298
+4    1.158867
+5    1.163323
+Name: distance, dtype: float64",reunited_image_651.png,True
+john_doe_image_608.png,"['reunited_image_651.png', 'reunited_image_526.png', 'reunited_image_75.png', 'reunited_image_236.png', 'john_doe_image_442.png']","0    1.099060
+1    1.101756
+2    1.114619
+3    1.129841
+4    1.146109
+Name: distance, dtype: float64",reunited_image_651.png,True
+reunited_image_530.png,"['reunited_image_352.png', 'john_doe_image_611.png']","0    1.093103
+1    1.157754
+Name: distance, dtype: float64",reunited_image_352.png,True
+reunited_image_620.png,"['reunited_image_236.png', 'reunited_image_526.png', 'reunited_image_651.png']","0    1.071051
+1    1.124928
+2    1.161039
+Name: distance, dtype: float64",reunited_image_236.png,True
+john_doe_image_556.png,['john_doe_image_556.png'],"0    0.000002
+Name: distance, dtype: float64",john_doe_image_556.png,False
+reunited_image_221.png,"['reunited_image_352.png', 'reunited_image_163.png', 'reunited_image_236.png']","0    1.078527
+1    1.109049
+2    1.157783
+Name: distance, dtype: float64",reunited_image_352.png,True
+reunited_image_692.png,"['reunited_image_692.png', 'reunited_image_135.png']","0    0.000002
+1    1.102541
+Name: distance, dtype: float64",reunited_image_135.png,True
+john_doe_image_194.png,['reunited_image_236.png'],"0    1.112227
+Name: distance, dtype: float64",reunited_image_236.png,True
+john_doe_image_740.png,"['john_doe_image_13.png', 'reunited_image_526.png', 'reunited_image_420.png', 'john_doe_image_442.png', 'reunited_image_701-checkpoint.png', 'reunited_image_701.png']","0    1.047013
+1    1.088133
+2    1.133535
+3    1.155946
+4    1.162544
+5    1.162544
+Name: distance, dtype: float64",john_doe_image_13.png,True
+john_doe_image_600.png,"['reunited_image_651.png', 'john_doe_image_442.png', 'reunited_image_526.png', 'john_doe_image_13.png', 'reunited_image_325-checkpoint.png']","0    1.079289
+1    1.082226
+2    1.123109
+3    1.134250
+4    1.149070
+Name: distance, dtype: float64",reunited_image_651.png,True
+reunited_image_419.png,['reunited_image_236.png'],"0    1.0827
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_561.png,['reunited_image_227.png'],"0    1.05823
+Name: distance, dtype: float64",reunited_image_227.png,True
+reunited_image_590.png,"['reunited_image_236.png', 'reunited_image_135.png']","0    1.156122
+1    1.157226
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_720.png,"['reunited_image_701-checkpoint.png', 'reunited_image_701.png', 'reunited_image_25.png']","0    1.058840
+1    1.058840
+2    1.098457
+Name: distance, dtype: float64",reunited_image_701-checkpoint.png,True
+reunited_image_443.png,"['john_doe_image_13.png', 'john_doe_image_442.png', 'reunited_image_526.png', 'reunited_image_701-checkpoint.png', 'reunited_image_701.png', 'john_doe_image_251.png', 'reunited_image_25.png', 'reunited_image_494.png', 'reunited_image_750.png', 'reunited_image_750-checkpoint.png']","0    0.969936
+1    1.073569
+2    1.075334
+3    1.101444
+4    1.101444
+5    1.125939
+6    1.158573
+7    1.162779
+8    1.168836
+9    1.168836
+Name: distance, dtype: float64",john_doe_image_13.png,True
+reunited_image_306.png,['reunited_image_217.png'],"0    1.124787
+Name: distance, dtype: float64",reunited_image_217.png,True
+john_doe_image_647.png,"['reunited_image_651.png', 'john_doe_image_13.png', 'reunited_image_526.png', 'john_doe_image_442.png']","0    1.092600
+1    1.110258
+2    1.117615
+3    1.146786
+Name: distance, dtype: float64",reunited_image_651.png,True
+john_doe_image_702.png,"['john_doe_image_251.png', 'reunited_image_750-checkpoint.png', 'reunited_image_750.png']","0    1.122030
+1    1.144986
+2    1.144986
+Name: distance, dtype: float64",john_doe_image_251.png,True
+john_doe_image_524.png,"['reunited_image_236.png', 'reunited_image_75.png', 'reunited_image_651.png']","0    1.133695
+1    1.138393
+2    1.154792
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_497.png,"['reunited_image_161.png', 'reunited_image_236.png']","0    1.126621
+1    1.136607
+Name: distance, dtype: float64",reunited_image_161.png,True
+reunited_image_200.png,"['reunited_image_236.png', 'reunited_image_504-checkpoint.png', 'reunited_image_504.png']","0    1.115280
+1    1.168319
+2    1.168319
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_52.png,['reunited_image_500.png'],"0    1.168328
+Name: distance, dtype: float64",reunited_image_500.png,True
+john_doe_image_169.png,"['john_doe_image_13.png', 'reunited_image_750-checkpoint.png', 'reunited_image_750.png', 'john_doe_image_251.png']","0    1.091855
+1    1.113836
+2    1.113836
+3    1.149173
+Name: distance, dtype: float64",john_doe_image_13.png,True
+reunited_image_364.png,"['reunited_image_634.png', 'reunited_image_236.png', 'reunited_image_161.png', 'john_doe_image_611.png', 'reunited_image_140.png']","0    1.094993
+1    1.129581
+2    1.130400
+3    1.150782
+4    1.162640
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_57.png,"['reunited_image_634.png', 'reunited_image_161.png', 'john_doe_image_522.png']","0    1.100749
+1    1.115313
+2    1.156910
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_25.png,"['reunited_image_25.png', 'reunited_image_592.png', 'reunited_image_701-checkpoint.png', 'reunited_image_701.png', 'reunited_image_167.png']","0    0.000001
+1    1.061215
+2    1.091661
+3    1.091661
+4    1.140648
+Name: distance, dtype: float64",reunited_image_592.png,True
+reunited_image_135.png,"['reunited_image_135.png', 'reunited_image_692.png']","0    0.000002
+1    1.102541
+Name: distance, dtype: float64",reunited_image_692.png,True
+reunited_image_244.png,"['reunited_image_161.png', 'reunited_image_236.png']","0    1.131928
+1    1.141641
+Name: distance, dtype: float64",reunited_image_161.png,True
+john_doe_image_301.png,"['reunited_image_526.png', 'reunited_image_651.png', 'john_doe_image_442.png', 'john_doe_image_13.png', 'reunited_image_140.png', 'reunited_image_325-checkpoint.png']","0    0.966844
+1    0.997569
+2    1.049620
+3    1.088081
+4    1.120009
+5    1.168605
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_744.png,"['reunited_image_236.png', 'reunited_image_458.png']","0    1.142827
+1    1.146040
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_220.png,"['reunited_image_161.png', 'reunited_image_634.png']","0    1.120705
+1    1.148192
+Name: distance, dtype: float64",reunited_image_161.png,True
+reunited_image_603.png,"['reunited_image_603.png', 'reunited_image_17.png']","0    0.000003
+1    1.156708
+Name: distance, dtype: float64",reunited_image_17.png,True
+john_doe_image_71.png,"['reunited_image_325-checkpoint.png', 'reunited_image_526.png', 'john_doe_image_442.png', 'reunited_image_651.png']","0    1.087615
+1    1.126570
+2    1.135253
+3    1.137829
+Name: distance, dtype: float64",reunited_image_325-checkpoint.png,True
+reunited_image_331.png,"['john_doe_image_358.png', 'reunited_image_178.png']","0    1.116648
+1    1.140453
+Name: distance, dtype: float64",john_doe_image_358.png,True
+john_doe_image_310.png,"['reunited_image_634.png', 'reunited_image_236.png', 'reunited_image_161.png', 'reunited_image_163.png', 'reunited_image_75.png', 'john_doe_image_522.png', 'john_doe_image_13.png']","0    1.018920
+1    1.057341
+2    1.132845
+3    1.143505
+4    1.149760
+5    1.153766
+6    1.168044
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_339.png,"['reunited_image_339.png', 'reunited_image_87.png']","0    0.000002
+1    1.167914
+Name: distance, dtype: float64",reunited_image_87.png,True
+reunited_image_651.png,"['reunited_image_651.png', 'reunited_image_75.png', 'john_doe_image_442.png', 'reunited_image_526.png', 'reunited_image_634.png', 'reunited_image_140.png', 'john_doe_image_13.png', 'john_doe_image_611.png']","0    0.000001
+1    1.041162
+2    1.069200
+3    1.107574
+4    1.132572
+5    1.134314
+6    1.138484
+7    1.161034
+Name: distance, dtype: float64",reunited_image_75.png,True
+john_doe_image_346.png,"['reunited_image_651.png', 'reunited_image_526.png']","0    1.137390
+1    1.150059
+Name: distance, dtype: float64",reunited_image_651.png,True
+john_doe_image_754.png,"['john_doe_image_754-checkpoint.png', 'john_doe_image_754.png', 'john_doe_image_333.png']","0    0.000001
+1    0.000001
+2    1.104116
+Name: distance, dtype: float64",john_doe_image_754.png,True
+reunited_image_665.png,"['reunited_image_634.png', 'reunited_image_163.png']","0    1.138797
+1    1.143025
+Name: distance, dtype: float64",reunited_image_634.png,True
+john_doe_image_392.png,"['reunited_image_526.png', 'john_doe_image_13.png', 'john_doe_image_442.png', 'reunited_image_651.png', 'reunited_image_325-checkpoint.png']","0    1.023541
+1    1.053723
+2    1.129385
+3    1.143213
+4    1.163499
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_776.png,"['reunited_image_526.png', 'john_doe_image_442.png', 'john_doe_image_13.png', 'reunited_image_140.png', 'reunited_image_651.png', 'john_doe_image_471.png']","0    1.000793
+1    1.102573
+2    1.123676
+3    1.148391
+4    1.156525
+5    1.163522
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_336.png,"['reunited_image_379.png', 'john_doe_image_251.png']","0    1.139300
+1    1.154433
+Name: distance, dtype: float64",reunited_image_379.png,True
+reunited_image_115.png,"['reunited_image_163.png', 'reunited_image_651.png', 'reunited_image_178.png', 'reunited_image_634.png', 'john_doe_image_32.png', 'reunited_image_550.png']","0    1.122281
+1    1.128735
+2    1.137617
+3    1.140599
+4    1.148511
+5    1.169803
+Name: distance, dtype: float64",reunited_image_163.png,True
+reunited_image_217.png,['reunited_image_217.png'],"0    0.000001
+Name: distance, dtype: float64",reunited_image_217.png,False
+john_doe_image_730.png,"['reunited_image_163.png', 'reunited_image_236.png']","0    1.146603
+1    1.148531
+Name: distance, dtype: float64",reunited_image_163.png,True
+reunited_image_606.png,"['john_doe_image_32.png', 'reunited_image_305.png']","0    0.967553
+1    1.065974
+Name: distance, dtype: float64",john_doe_image_32.png,True
+reunited_image_485.png,"['reunited_image_227.png', 'reunited_image_374.png', 'reunited_image_163.png']","0    1.009341
+1    1.071564
+2    1.130669
+Name: distance, dtype: float64",reunited_image_227.png,True
+reunited_image_148.png,['reunited_image_526.png'],"0    1.16003
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_75.png,"['reunited_image_75.png', 'reunited_image_634.png', 'reunited_image_651.png', 'john_doe_image_442.png', 'reunited_image_550.png', 'reunited_image_236.png']","0    0.000002
+1    0.975923
+2    1.041162
+3    1.145126
+4    1.163621
+5    1.166509
+Name: distance, dtype: float64",reunited_image_634.png,True
+john_doe_image_216.png,['reunited_image_236.png'],"0    1.158834
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_648.png,"['john_doe_image_340.png', 'reunited_image_17.png']","0    1.138839
+1    1.162357
+Name: distance, dtype: float64",john_doe_image_340.png,True
+reunited_image_504.png,"['reunited_image_504-checkpoint.png', 'reunited_image_504.png']","0    0.000001
+1    0.000001
+Name: distance, dtype: float64",reunited_image_504.png,True
+reunited_image_327.png,['reunited_image_526.png'],"0    1.143328
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_164.png,"['reunited_image_236.png', 'reunited_image_352.png']","0    1.144622
+1    1.155947
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_84.png,"['john_doe_image_13.png', 'reunited_image_750-checkpoint.png', 'reunited_image_750.png', 'john_doe_image_333.png']","0    1.064674
+1    1.067288
+2    1.067288
+3    1.149429
+Name: distance, dtype: float64",john_doe_image_13.png,True
+reunited_image_232.png,"['john_doe_image_313.png', 'reunited_image_651.png']","0    1.107721
+1    1.146910
+Name: distance, dtype: float64",john_doe_image_313.png,True
+reunited_image_228.png,"['reunited_image_140.png', 'john_doe_image_442.png', 'reunited_image_325-checkpoint.png', 'john_doe_image_13.png']","0    0.960729
+1    1.097583
+2    1.124553
+3    1.146248
+Name: distance, dtype: float64",reunited_image_140.png,True
+reunited_image_152.png,"['reunited_image_152.png', 'john_doe_image_274.png', 'reunited_image_375.png']","0    0.000002
+1    1.073232
+2    1.141855
+Name: distance, dtype: float64",john_doe_image_274.png,True
+reunited_image_537.png,['reunited_image_163.png'],"0    1.124839
+Name: distance, dtype: float64",reunited_image_163.png,True
+reunited_image_774.png,"['reunited_image_504-checkpoint.png', 'reunited_image_504.png']","0    1.137799
+1    1.137799
+Name: distance, dtype: float64",reunited_image_504-checkpoint.png,True
+reunited_image_434.png,"['reunited_image_374.png', 'reunited_image_49.png', 'reunited_image_184.png', 'john_doe_image_313.png']","0    1.117101
+1    1.147849
+2    1.157307
+3    1.168138
+Name: distance, dtype: float64",reunited_image_374.png,True
+reunited_image_275.png,"['reunited_image_275.png', 'reunited_image_634.png', 'reunited_image_375.png', 'reunited_image_140.png', 'reunited_image_550.png']","0    0.000001
+1    1.114608
+2    1.124539
+3    1.160724
+4    1.163174
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_500.png,"['reunited_image_500.png', 'john_doe_image_13.png']","0    0.000001
+1    1.087186
+Name: distance, dtype: float64",john_doe_image_13.png,True
+john_doe_image_755.png,"['reunited_image_135.png', 'reunited_image_236.png']","0    1.113132
+1    1.145277
+Name: distance, dtype: float64",reunited_image_135.png,True
+john_doe_image_36.png,"['john_doe_image_13.png', 'john_doe_image_442.png', 'reunited_image_526.png', 'reunited_image_651.png', 'john_doe_image_32.png', 'reunited_image_140.png', 'reunited_image_420.png', 'john_doe_image_333.png']","0    0.918720
+1    1.025260
+2    1.052626
+3    1.103035
+4    1.151399
+5    1.157028
+6    1.158330
+7    1.166179
+Name: distance, dtype: float64",john_doe_image_13.png,True
+reunited_image_483.png,"['reunited_image_374.png', 'reunited_image_550.png', 'john_doe_image_467.png', 'reunited_image_236.png']","0    1.104434
+1    1.124337
+2    1.152418
+3    1.156016
+Name: distance, dtype: float64",reunited_image_374.png,True
+john_doe_image_520.png,"['reunited_image_236.png', 'reunited_image_17.png']","0    1.106047
+1    1.160601
+Name: distance, dtype: float64",reunited_image_236.png,True
+john_doe_image_491.png,"['reunited_image_526.png', 'john_doe_image_13.png']","0    1.142381
+1    1.157647
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_745.png,"['reunited_image_227.png', 'reunited_image_374.png', 'reunited_image_161.png', 'reunited_image_163.png', 'reunited_image_504.png', 'reunited_image_504-checkpoint.png', 'reunited_image_236.png']","0    1.064582
+1    1.100134
+2    1.127274
+3    1.136013
+4    1.142604
+5    1.142604
+6    1.162080
+Name: distance, dtype: float64",reunited_image_227.png,True
+reunited_image_46.png,"['john_doe_image_611.png', 'reunited_image_634.png', 'reunited_image_161.png', 'reunited_image_227.png']","0    1.112276
+1    1.127245
+2    1.147093
+3    1.165961
+Name: distance, dtype: float64",john_doe_image_611.png,True
+reunited_image_634.png,"['reunited_image_634.png', 'reunited_image_75.png', 'reunited_image_161.png', 'reunited_image_550.png', 'reunited_image_236.png', 'reunited_image_375.png', 'reunited_image_275.png', 'reunited_image_651.png', 'john_doe_image_522.png', 'reunited_image_163.png']","0    0.000002
+1    0.975923
+2    1.016178
+3    1.104625
+4    1.110511
+5    1.114039
+6    1.114608
+7    1.132572
+8    1.137538
+9    1.143599
+Name: distance, dtype: float64",reunited_image_75.png,True
+john_doe_image_717.png,"['reunited_image_305.png', 'john_doe_image_754-checkpoint.png', 'john_doe_image_754.png', 'john_doe_image_32.png', 'john_doe_image_442.png']","0    1.088859
+1    1.101230
+2    1.101230
+3    1.119380
+4    1.148553
+Name: distance, dtype: float64",reunited_image_305.png,True
+john_doe_image_248.png,['john_doe_image_32.png'],"0    1.040792
+Name: distance, dtype: float64",john_doe_image_32.png,True
+john_doe_image_313.png,['john_doe_image_313.png'],"0    0.000001
+Name: distance, dtype: float64",john_doe_image_313.png,False
+reunited_image_424.png,['reunited_image_352.png'],"0    1.153181
+Name: distance, dtype: float64",reunited_image_352.png,True
+reunited_image_205.png,"['reunited_image_325-checkpoint.png', 'john_doe_image_358.png', 'john_doe_image_611.png', 'reunited_image_161.png', 'john_doe_image_522.png']","0    1.115396
+1    1.144041
+2    1.145255
+3    1.160981
+4    1.166912
+Name: distance, dtype: float64",reunited_image_325-checkpoint.png,True
+john_doe_image_145.png,"['john_doe_image_13.png', 'reunited_image_526.png']","0    1.085839
+1    1.102196
+Name: distance, dtype: float64",john_doe_image_13.png,True
+reunited_image_156.png,"['john_doe_image_442.png', 'reunited_image_75.png', 'john_doe_image_13.png', 'reunited_image_526.png', 'reunited_image_651.png']","0    1.088583
+1    1.139178
+2    1.146253
+3    1.164769
+4    1.166836
+Name: distance, dtype: float64",john_doe_image_442.png,True
+john_doe_image_201.png,['reunited_image_526.png'],"0    0.991898
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_714.png,"['reunited_image_714-checkpoint.png', 'reunited_image_714.png']","0    8.969052e-07
+1    8.969052e-07
+Name: distance, dtype: float64",reunited_image_714.png,True
+john_doe_image_403.png,"['reunited_image_140.png', 'john_doe_image_442.png', 'john_doe_image_13.png', 'reunited_image_375.png', 'reunited_image_651.png', 'reunited_image_526.png']","0    1.020656
+1    1.090560
+2    1.119831
+3    1.140876
+4    1.148381
+5    1.154900
+Name: distance, dtype: float64",reunited_image_140.png,True
+reunited_image_4.png,"['reunited_image_161.png', 'reunited_image_236.png']","0    1.145538
+1    1.155724
+Name: distance, dtype: float64",reunited_image_161.png,True
+reunited_image_218.png,['reunited_image_150.png'],"0    1.103993
+Name: distance, dtype: float64",reunited_image_150.png,True
+reunited_image_676.png,"['john_doe_image_471.png', 'john_doe_image_442.png', 'reunited_image_140.png', 'reunited_image_375.png']","0    1.087267
+1    1.097241
+2    1.107470
+3    1.157154
+Name: distance, dtype: float64",john_doe_image_471.png,True
+reunited_image_227.png,"['reunited_image_227.png', 'reunited_image_374.png', 'reunited_image_161.png']","0    0.000002
+1    0.926352
+2    1.151983
+Name: distance, dtype: float64",reunited_image_374.png,True
+john_doe_image_511.png,"['reunited_image_236.png', 'reunited_image_634.png', 'reunited_image_374.png']","0    1.132008
+1    1.150331
+2    1.168380
+Name: distance, dtype: float64",reunited_image_236.png,True
+reunited_image_417.png,"['john_doe_image_522.png', 'reunited_image_236.png']","0    1.148023
+1    1.166429
+Name: distance, dtype: float64",john_doe_image_522.png,True
+john_doe_image_766.png,"['reunited_image_526.png', 'john_doe_image_13.png', 'reunited_image_651.png', 'john_doe_image_442.png']","0    1.010506
+1    1.091190
+2    1.130737
+3    1.145511
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_252.png,['john_doe_image_442.png'],"0    1.168164
+Name: distance, dtype: float64",john_doe_image_442.png,True
+john_doe_image_749.png,"['reunited_image_365.png', 'john_doe_image_333.png']","0    1.079496
+1    1.146484
+Name: distance, dtype: float64",reunited_image_365.png,True
+reunited_image_534.png,['john_doe_image_358.png'],"0    1.1467
+Name: distance, dtype: float64",john_doe_image_358.png,True
+reunited_image_360.png,"['reunited_image_161.png', 'reunited_image_374.png', 'reunited_image_634.png', 'reunited_image_236.png']","0    1.111605
+1    1.133706
+2    1.147107
+3    1.162833
+Name: distance, dtype: float64",reunited_image_161.png,True
+john_doe_image_367.png,['reunited_image_651.png'],"0    1.169954
+Name: distance, dtype: float64",reunited_image_651.png,True
+john_doe_image_649.png,['john_doe_image_649.png'],"0    0.000001
+Name: distance, dtype: float64",john_doe_image_649.png,False
+john_doe_image_195.png,"['reunited_image_161.png', 'reunited_image_634.png', 'reunited_image_236.png', 'john_doe_image_442.png']","0    1.093922
+1    1.107813
+2    1.124079
+3    1.149963
+Name: distance, dtype: float64",reunited_image_161.png,True
+john_doe_image_48.png,['reunited_image_161.png'],"0    1.134335
+Name: distance, dtype: float64",reunited_image_161.png,True
+john_doe_image_151.png,['reunited_image_526.png'],"0    0.939589
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_374.png,"['reunited_image_374.png', 'reunited_image_227.png']","0    0.000002
+1    0.926352
+Name: distance, dtype: float64",reunited_image_227.png,True
+reunited_image_469.png,"['reunited_image_227.png', 'john_doe_image_556.png']","0    1.105118
+1    1.169340
+Name: distance, dtype: float64",reunited_image_227.png,True
+reunited_image_494.png,"['reunited_image_494.png', 'reunited_image_181.png']","0    0.000001
+1    1.111458
+Name: distance, dtype: float64",reunited_image_181.png,True
+john_doe_image_185.png,"['john_doe_image_13.png', 'reunited_image_526.png', 'reunited_image_651.png', 'john_doe_image_442.png']","0    1.058528
+1    1.100313
+2    1.108448
+3    1.125209
+Name: distance, dtype: float64",john_doe_image_13.png,True
+john_doe_image_198.png,"['john_doe_image_198.png', 'john_doe_image_198-checkpoint.png']","0    0.000001
+1    0.000001
+Name: distance, dtype: float64",john_doe_image_198-checkpoint.png,True
+john_doe_image_153.png,"['reunited_image_634.png', 'reunited_image_236.png', 'reunited_image_550.png', 'reunited_image_75.png', 'reunited_image_161.png', 'reunited_image_375.png', 'reunited_image_714-checkpoint.png', 'reunited_image_714.png']","0    1.080686
+1    1.100113
+2    1.108496
+3    1.142156
+4    1.153706
+5    1.155969
+6    1.165631
+7    1.165631
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_436.png,"['john_doe_image_611.png', 'john_doe_image_442.png']","0    1.147817
+1    1.165558
+Name: distance, dtype: float64",john_doe_image_611.png,True
+reunited_image_422.png,"['reunited_image_701-checkpoint.png', 'reunited_image_701.png', 'reunited_image_167.png', 'reunited_image_526.png']","0    0.948570
+1    0.948570
+2    1.086418
+3    1.133978
+Name: distance, dtype: float64",reunited_image_701-checkpoint.png,True
+reunited_image_365.png,['reunited_image_365.png'],"0    0.000001
+Name: distance, dtype: float64",reunited_image_365.png,False
+john_doe_image_797.png,"['reunited_image_458.png', 'reunited_image_236.png']","0    1.113424
+1    1.129138
+Name: distance, dtype: float64",reunited_image_458.png,True
+john_doe_image_457.png,"['john_doe_image_13.png', 'john_doe_image_358.png', 'reunited_image_140.png']","0    1.123388
+1    1.156619
+2    1.163532
+Name: distance, dtype: float64",john_doe_image_13.png,True
+reunited_image_167.png,"['reunited_image_167.png', 'john_doe_image_340.png', 'reunited_image_25.png', 'reunited_image_17.png', 'john_doe_image_442.png', 'john_doe_image_32.png']","0    0.000001
+1    1.024638
+2    1.140648
+3    1.144717
+4    1.165927
+5    1.168343
+Name: distance, dtype: float64",john_doe_image_340.png,True
+reunited_image_762.png,"['reunited_image_762.png', 'reunited_image_762-checkpoint.png']","0    0.000001
+1    0.000001
+Name: distance, dtype: float64",reunited_image_762-checkpoint.png,True
+john_doe_image_288.png,"['reunited_image_651.png', 'reunited_image_526.png', 'john_doe_image_442.png', 'reunited_image_140.png', 'john_doe_image_611.png']","0    1.071337
+1    1.095121
+2    1.122521
+3    1.136797
+4    1.144878
+Name: distance, dtype: float64",reunited_image_651.png,True
+reunited_image_230.png,"['john_doe_image_70-checkpoint.png', 'john_doe_image_70.png', 'john_doe_image_442.png']","0    1.154347
+1    1.154347
+2    1.161796
+Name: distance, dtype: float64",john_doe_image_70-checkpoint.png,True
+reunited_image_592.png,"['reunited_image_592.png', 'reunited_image_25.png']","0    0.000001
+1    1.061215
+Name: distance, dtype: float64",reunited_image_25.png,True
+reunited_image_51.png,['reunited_image_51.png'],"0    0.000001
+Name: distance, dtype: float64",reunited_image_51.png,False
+john_doe_image_274.png,"['john_doe_image_274.png', 'reunited_image_152.png', 'reunited_image_375.png']","0    0.000002
+1    1.073232
+2    1.132042
+Name: distance, dtype: float64",reunited_image_152.png,True
+reunited_image_481.png,['reunited_image_526.png'],"0    1.158995
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_726.png,"['reunited_image_526.png', 'reunited_image_25.png', 'reunited_image_167.png', 'john_doe_image_442.png', 'john_doe_image_13.png', 'reunited_image_701-checkpoint.png', 'reunited_image_701.png', 'reunited_image_651.png', 'reunited_image_135.png']","0    1.049483
+1    1.063180
+2    1.097762
+3    1.105582
+4    1.116953
+5    1.126151
+6    1.126151
+7    1.141089
+8    1.153665
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_22.png,"['reunited_image_526.png', 'john_doe_image_13.png', 'john_doe_image_442.png', 'reunited_image_140.png', 'reunited_image_651.png', 'reunited_image_150.png']","0    1.003898
+1    1.008115
+2    1.137812
+3    1.144869
+4    1.160025
+5    1.169739
+Name: distance, dtype: float64",reunited_image_526.png,True
+john_doe_image_610.png,['reunited_image_634.png'],"0    1.157734
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_379.png,['reunited_image_379.png'],"0    0.000002
+Name: distance, dtype: float64",reunited_image_379.png,False
+reunited_image_444.png,['reunited_image_651.png'],"0    1.164385
+Name: distance, dtype: float64",reunited_image_651.png,True
+john_doe_image_522.png,"['john_doe_image_522.png', 'reunited_image_634.png', 'reunited_image_352.png', 'reunited_image_236.png', 'reunited_image_163.png']","0    0.000002
+1    1.137538
+2    1.152217
+3    1.160379
+4    1.166246
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_701.png,"['reunited_image_701-checkpoint.png', 'reunited_image_701.png', 'reunited_image_25.png', 'john_doe_image_333.png', 'reunited_image_458.png']","0    0.000001
+1    0.000001
+2    1.091661
+3    1.152389
+4    1.159215
+Name: distance, dtype: float64",reunited_image_701.png,True
+reunited_image_162.png,"['reunited_image_161.png', 'reunited_image_236.png', 'reunited_image_634.png', 'reunited_image_75.png', 'reunited_image_374.png', 'reunited_image_550.png', 'reunited_image_227.png', 'john_doe_image_522.png']","0    1.006963
+1    1.057436
+2    1.069564
+3    1.140121
+4    1.142164
+5    1.148104
+6    1.155909
+7    1.165680
+Name: distance, dtype: float64",reunited_image_161.png,True
+john_doe_image_70.png,"['john_doe_image_70-checkpoint.png', 'john_doe_image_70.png', 'john_doe_image_442.png', 'john_doe_image_333.png']","0    0.000001
+1    0.000001
+2    1.151865
+3    1.161554
+Name: distance, dtype: float64",john_doe_image_70.png,True
+reunited_image_259.png,['reunited_image_236.png'],"0    1.11593
+Name: distance, dtype: float64",reunited_image_236.png,True
+john_doe_image_763.png,"['john_doe_image_13.png', 'john_doe_image_442.png', 'reunited_image_651.png', 'reunited_image_167.png']","0    1.149816
+1    1.150161
+2    1.155016
+3    1.162086
+Name: distance, dtype: float64",john_doe_image_13.png,True
+john_doe_image_55.png,"['reunited_image_375.png', 'reunited_image_140.png', 'reunited_image_634.png', 'john_doe_image_442.png', 'reunited_image_236.png']","0    1.076877
+1    1.103232
+2    1.149303
+3    1.159745
+4    1.166922
+Name: distance, dtype: float64",reunited_image_375.png,True
+reunited_image_100.png,['reunited_image_100.png'],"0    0.000002
+Name: distance, dtype: float64",reunited_image_100.png,False
+reunited_image_458.png,"['reunited_image_458.png', 'reunited_image_701-checkpoint.png', 'reunited_image_701.png']","0    0.000001
+1    1.159215
+2    1.159215
+Name: distance, dtype: float64",reunited_image_701-checkpoint.png,True
+john_doe_image_449.png,"['john_doe_image_358.png', 'reunited_image_526.png']","0    1.133236
+1    1.143396
+Name: distance, dtype: float64",john_doe_image_358.png,True
+reunited_image_547.png,"['john_doe_image_442.png', 'reunited_image_526.png']","0    1.110506
+1    1.147242
+Name: distance, dtype: float64",john_doe_image_442.png,True
+john_doe_image_149.png,['john_doe_image_251.png'],"0    1.098825
+Name: distance, dtype: float64",john_doe_image_251.png,True
+reunited_image_455.png,['reunited_image_455.png'],"0    0.000001
+Name: distance, dtype: float64",reunited_image_455.png,False
+reunited_image_355.png,['reunited_image_420.png'],"0    1.067795
+Name: distance, dtype: float64",reunited_image_420.png,True
+john_doe_image_467.png,"['john_doe_image_467.png', 'reunited_image_181.png']","0    0.000001
+1    1.161788
+Name: distance, dtype: float64",reunited_image_181.png,True
+john_doe_image_124.png,"['reunited_image_526.png', 'john_doe_image_13.png']","0    1.105244
+1    1.147715
+Name: distance, dtype: float64",reunited_image_526.png,True
+reunited_image_236.png,"['reunited_image_236.png', 'reunited_image_634.png', 'reunited_image_163.png', 'john_doe_image_522.png', 'reunited_image_161.png', 'reunited_image_75.png']","0    0.000001
+1    1.110511
+2    1.134572
+3    1.160379
+4    1.163890
+5    1.166509
+Name: distance, dtype: float64",reunited_image_634.png,True
+reunited_image_431.png,"['reunited_image_634.png', 'reunited_image_236.png', 'reunited_image_651.png', 'john_doe_image_611.png']","0    1.085963
+1    1.133026
+2    1.154910
+3    1.157550
+Name: distance, dtype: float64",reunited_image_634.png,True
