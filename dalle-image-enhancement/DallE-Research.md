@@ -1,7 +1,5 @@
 # DALL-E Candidate Image Editing
 A lot of the input images present in the dataset show partial faces or are images in which the orientation of the figure obstruct the view of the face. Utilizing Dall-E, we were able to modify some candidate images to be able to give a better representation of the image being ran through the model. 
-![](https://github.com/Epicato/lux-AI/blob/main/game.png)
-![alt text](Isolated.png "Title")
 In the dall-e-image-edit.ipynb, first you need an active openAIkey to run the notebook
 After gaining access with a key, place images in the directory or link a path to the folder containing the images.
 Using photshop or another image editor create a mask on the facial features (eyes, mouth etc.) of the image while keeping features like hair and jaw/head structure intact and save that image to the directory.
